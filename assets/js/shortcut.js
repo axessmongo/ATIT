@@ -1,7 +1,3 @@
-
-
-
-
 // HTML code to insert after the existing div
 var htmlCode = `
 <div id="rocket-container" class="cursor" data-aos="zoom-in">
@@ -110,28 +106,39 @@ aria-labelledby="staticBackdropLabel" aria-hidden="true">
 </div>
 </div>
 
+
+<!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-E4L74X1L7V"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-E4L74X1L7V");
+    </script>
+
 <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
-`
-     ;
 
-var existingDiv = document.getElementById('footerElement');
-existingDiv.insertAdjacentHTML('afterend', htmlCode);
+`;
 
+var existingDiv = document.getElementById("footerElement");
+existingDiv.insertAdjacentHTML("afterend", htmlCode);
 
 $(document).ready(function () {
-    // Change the href to a new value
-    // $("footer .courses-links a").attr("href", "one");
-    if ($('.individualBlogs').length > 0) {
-        $('.popup').attr('href', '../placement.html');
-        $('.copyright a').attr('href', '../privacyPolicy.html');
-    }else if ($('.coursesList').length > 0) {
-        $('.popup').attr('href', '../../placement.html');
-        $('.copyright a').attr('href', '../../privacyPolicy.html');
-    }
-
+  // Change the href to a new value
+  // $("footer .courses-links a").attr("href", "one");
+  if ($(".individualBlogs").length > 0) {
+    $(".popup").attr("href", "../placement.html");
+    $(".copyright a").attr("href", "../privacyPolicy.html");
+  } else if ($(".coursesList").length > 0) {
+    $(".popup").attr("href", "../../placement.html");
+    $(".copyright a").attr("href", "../../privacyPolicy.html");
+  }
 });
 
 AOS.init();
-
-
-
