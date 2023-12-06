@@ -24,14 +24,16 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="row gy-3 mt-3">
             
             <div class="col-lg-3 col-md-6 d-flex address" data-aos="fade-up" data-aos-duration="700">
-            <a href="https://maps.app.goo.gl/Cx14du1boxQ4R8MY9" target="_blank" class="map"><i class="bi bi-geo-alt icon"></i></a>
+           <i class="bi bi-geo-alt icon"></i>
                 <div>
                     <h4>Address</h4>
                     <p>
+                    <a href="https://maps.app.goo.gl/Cx14du1boxQ4R8MY9" target="_blank" class="map text-decoration-none">
                         Tidel Park, GF-04,<br>
                         No-4, Rajiv Gandhi Salai,<br>
                         Taramani,<br>
                         Chennai - 600113.<br>
+                        </a>
                     </p>
                 </div>
 
@@ -42,11 +44,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 <div>
                     <h4>Connect</h4>
                     <p>
-                        <strong>Phone:</strong> 78457 21438
+                        <strong>Phone:</strong><a href="tel:7845721438">78457 21438</a>
                         <br>
-                        <strong>Phone:</strong> 73581 07180
+                        <strong>Phone:</strong> <a href="tel:7358107180">73581 07180</a>
                         <br>
-                        <strong>Email:</strong> info_atit@turn-ai.in<br>
+                        <strong>Email:</strong><a href="mailto:info@turn-ai.in">info@turn-ai.in</a><br>
                     </p>
                 </div>
             </div>
@@ -54,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
             <div class="col-lg-3 col-md-6 footer-links d-flex" data-aos="fade-up" data-aos-duration="900">
                 <i class="bi bi-book-half icon"></i>
                 <div class="text-decoration-none">
-                    <h4>Skills</h4>
+                    <h4>Courses</h4>
                     <div class="text-decoration-none courses-links">
                         <a href="courses.html" onclick="sessionStorage.setItem('cousrelist', '2')" class="text-decoration-none"><strong>Software Developement</strong></a>
                         <br>

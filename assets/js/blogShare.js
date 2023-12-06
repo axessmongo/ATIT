@@ -40,7 +40,7 @@ const shareBlog = `
     
 
 
-var instagramLink = 'https://www.instagram.com/share?url=' + encodeURIComponent(currentURL);
+var instagramLink = 'https://www.instagram.com/';
 $('#instagram-share').attr('href', instagramLink);
 
 $('#instagram-share').on('click', function (e) {
