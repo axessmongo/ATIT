@@ -15,7 +15,7 @@
             </div>
             </a>
             <a href="./blog-page/itcareer.html" class="text-decoration-none blog-title blog-title">
-                The booming IT sector in India and its employment opportunities!
+            Employment opportunities!
             </a>
         </div>
         <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
@@ -28,7 +28,7 @@
             </div>
             </a>
             <a href="./blog-page/searching.html" class="text-decoration-none blog-title blog-title">
-                It Can Be Challenging To Stand Out From The Crowd And Catch
+               Post About
             </a>
         </div>
         <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
@@ -41,7 +41,7 @@
             </div>
             </a>
             <a href="./blog-page/jobrace.html" class="text-decoration-none blog-title blog-title">
-                Want To Get Ahead Of The Job Race? Read On
+                Ahead Of The Job Race
             </a>
         </div>
         <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
@@ -54,7 +54,7 @@
             </div>
             </a>
             <a href="./blog-page/cleargoal.html" class="text-decoration-none blog-title blog-title">
-                How To Clear Any Professional Exam: A Proven Strategy For Success
+            Any Professional Exam
             </a>
         </div>
         <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
@@ -67,7 +67,7 @@
             </div>
             </a>
             <a href="./blog-page/it_job.html" class="text-decoration-none blog-title blog-title">
-                From Campus To Career: How To Ace Your First IT Job Interview - Exclusive Q&A!
+            Your First IT Job Interview
             </a>
         </div>
         <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
@@ -80,8 +80,7 @@
         </div>
         </a>
         <a href="./blog-page/completeguide.html" class="text-decoration-none blog-title blog-title">
-            The booming IT sector in India and its
-            employment opportunities
+            Employment opportunities
         </a>
     </div>
     <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
@@ -94,8 +93,7 @@
         </div>
         </a>
         <a href="./blog-page/dynamic_duo.html" class="text-decoration-none blog-title blog-title">
-            Introduction to the dynamics of the IT job market and
-            fresh graduates
+        Dynamics Of The IT Job Market And Fresh Graduates
         </a>
     </div>
     <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
@@ -108,8 +106,7 @@
         </div>
         </a>
         <a href="./blog-page/mastering_technical.html" class="text-decoration-none blog-title blog-title">
-            Congratulations, college freshers! As you embark on
-            your journey toward a successful ...
+        Introduction For Career
         </a>
     </div>`,
             // Add more content here
