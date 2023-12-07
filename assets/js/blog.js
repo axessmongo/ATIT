@@ -54,7 +54,7 @@
             </div>
             </a>
             <a href="./blog-page/cleargoal.html" class="text-decoration-none blog-title blog-title">
-            Any Professional Exam
+            Clear Any Professional Exam
             </a>
         </div>
         <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
