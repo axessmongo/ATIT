@@ -43,7 +43,7 @@ $('#whatsapp-share').on('click', function (e) {
 
 // Construct the Instagram direct message URL
 var instagramLink = 'https://www.instagram.com/direct/inbox/?url=' + encodeURIComponent(currentURL);
-alert(encodeURIComponent(currentURL))
+alert(currentURL)
 
 // Set the href attribute of the 'instagram-share' element
 $('#instagram-share').attr('href', instagramLink);
