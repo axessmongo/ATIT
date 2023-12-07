@@ -41,7 +41,7 @@
             </div>
             </a>
             <a href="./blog-page/jobrace.html" class="text-decoration-none blog-title blog-title">
-                Ahead Of The Job Race
+              Get Ahead Of The Job Race
             </a>
         </div>
         <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
@@ -80,7 +80,7 @@
         </div>
         </a>
         <a href="./blog-page/completeguide.html" class="text-decoration-none blog-title blog-title">
-            Employment opportunities
+            Dynamic Indian Job Market
         </a>
     </div>
     <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
