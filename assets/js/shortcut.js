@@ -58,7 +58,7 @@ class="position-fixed z-3 bottom-0 d-flex align-items-center flex-column justify
 </div>
 
 <a href="https://api.whatsapp.com/send/?phone=%2B917845721438&text&app_absent=0" target="_blank" id="wa"
-    class="cursor" data-aos="zoom-in" data-aos-duration="1000">
+    class="cursor" >
     <img src="../whatsapp.png" alt="whatsapp" class="img-fluid"
         style="width:70px">
 </a>
