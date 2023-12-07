@@ -18,14 +18,14 @@ class="position-fixed z-3 bottom-0 d-flex align-items-center flex-column justify
             New
         </span>
         <div class="cloud">
-            <a href="placement.html"
+            <a href="pay-after-placement.html"
                 class="shadow1 cloud-text primary-text py-3 py-1 rounded-3 text-decoration-none d-block text-light">
                 Pay After Placement
                 <i class="fa-solid fa-caret-left"></i>
             </a>
         </div>
     </div>
-    <a href="placement.html" class="popup pop-ani text-decoration-none">
+    <a href="pay-after-placement.html" class="popup pop-ani text-decoration-none">
         <span>P</span>
         <span>a</span>
         <span>y</span>
@@ -133,10 +133,10 @@ $(document).ready(function () {
   // Change the href to a new value
   // $("footer .courses-links a").attr("href", "one");
   if ($(".individualBlogs").length > 0) {
-    $(".popup").attr("href", "../placement.html");
+    $(".popup").attr("href", "../pay-after-placement.html");
     $(".copyright a").attr("href", "../privacyPolicy.html");
   } else if ($(".coursesList").length > 0) {
-    $(".popup").attr("href", "../../placement.html");
+    $(".popup").attr("href", "../../pay-after-placement.html");
     $(".copyright a").attr("href", "../../privacyPolicy.html");
   }
 });

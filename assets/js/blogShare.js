@@ -23,25 +23,25 @@ const shareBlog = `
 </div>
 `
 
-    var shareblogElement = document.getElementById("share-blog");
-    if (shareblogElement) {
-        shareblogElement.innerHTML = shareBlog;
-        // AOS.init();
-    }
+var shareblogElement = document.getElementById("share-blog");
+if (shareblogElement) {
+    shareblogElement.innerHTML = shareBlog;
+    // AOS.init();
+}
 
-    var currentURL = window.location.href;
+var currentURL = window.location.href;
 
-    var whatsappLink = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(currentURL);
-    $('#whatsapp-share').attr('href', whatsappLink);
-    $('#whatsapp-share').on('click', function (e) {
-        e.preventDefault();
-        window.open($(this).attr('href'), '_blank');
-    });
-    
+var whatsappLink = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(currentURL);
+$('#whatsapp-share').attr('href', whatsappLink);
+$('#whatsapp-share').on('click', function (e) {
+    e.preventDefault();
+    window.open($(this).attr('href'), '_blank');
+});
 
 
-var instagramLink = 'https://www.instagram.com/share?url=' + encodeURIComponent(currentURL);
-$('#instagram-share').attr('href', 'https://www.instagram.com/atitchennai/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==');
+
+var instagramLink = 'https://www.instagram.com/direct/inbox/?url=' + encodeURIComponent(currentURL);
+$('#instagram-share').attr('href', instagramLink);
 
 $('#instagram-share').on('click', function (e) {
     e.preventDefault();

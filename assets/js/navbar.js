@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
                            <a class="nav-link active" href="../../courses.html">Course</a>
                        </li>
                        <li class="nav-item">
-                           <a title="Pay after Placement" class="nav-link" href="../../placement.html">PAP</a>
+                           <a title="Pay after Placement" class="nav-link" href="../../pay-after-placement.html">PAP</a>
                        </li>
                        <li class="nav-item">
                            <a class="nav-link" href="../../Blog2.html">Blog</a>
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
                    <a class="nav-link" href="../../blog.html">Blog</a>
                </li>
                <li class="nav-item">
-                   <a class="nav-link" href="../../placement.html">PAP</a>
+                   <a class="nav-link" href="../../pay-after-placement.html">PAP</a>
                </li>
            </ul>
        </div>
