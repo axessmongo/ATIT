@@ -41,7 +41,7 @@ const shareBlog = `
 
 
 var instagramLink = 'https://www.instagram.com/share?url=' + encodeURIComponent(currentURL);
-$('#instagram-share').attr('href', instagramLink);
+$('#instagram-share').attr('href', 'https://www.instagram.com/atitchennai/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==');
 
 $('#instagram-share').on('click', function (e) {
     e.preventDefault();
