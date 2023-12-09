@@ -292,3 +292,10 @@ var blogName = $('body').attr('blog-name');
 console.log(blogName);
 $('body[blog-name="' + blogName + '"] .' + blogName).hide();
 
+setTimeout(() => {
+    $('.left-blog').removeAttr('data-aos').removeAttr('data-aos-duration');
+}, 1000);
+
+$(window).scroll(()=>{
+    $('.left-blog').removeAttr('data-aos').removeAttr('data-aos-duration');
+})

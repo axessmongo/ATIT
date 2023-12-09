@@ -105,6 +105,15 @@
     font-size: 25px;
 }
 
+span.fl {
+    float: left;
+    width: 30px;
+    font-size: 400%;
+    font-family: algerian, courier;
+    line-height: 80%;
+}
+
+
 @media (max-width:992px) {
     .left-blog .flex-column {
         position: unset;
