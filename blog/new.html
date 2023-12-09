@@ -8,10 +8,6 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="../assets/css/scroll.css">
-    <link rel="stylesheet" href="../assets/css/animation.css">
-    <link rel="stylesheet" href="../assets/css/blognew.css">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- font -->
@@ -23,18 +19,99 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/animation.css">
+    <link rel="stylesheet" href="../assets/css/blognew.css">
 </head>
 
 
-<body class="individualBlogs">
+<body class="individualBlogs" blog-name="emer-tech">
 
+    <!-- nav starts -->
 
+    <div class="nav-holder d-lg-none">
+        <nav class="navbar navbar-expand-lg py-0 col-lg-10  mx-auto">
+            <div class="container-fluid p-0 d-flex align-items-start" data-aos="fade-down"
+                data-aos-anchor-placement="bottom-bottom" data-aos-duration="500">
+                <a class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white shadow1" href="index.html">
+                    <img src="../assets/imagesandvectors/vectors/atit_logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler d-none shadow-none ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <button class="d-lg-none ms-auto ms-md-0 canvas-bar bg-primary border-0 p-3" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#navbar" aria-controls="navbar">
+                    <i class="fa-solid fa-bars fa-xl text-white"></i>
+                </button>
+                <div class="collapse navbar-collapse position-relative" id="navbarSupportedContent">
+                    <ul class="navbar-nav shadow1 ms-auto mb-0 bg-light overflow-hidden rounded-bottom-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="courses.html">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a title="Pay after Placement" class="nav-link" href="pay-after-placement.html">PAP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
 
-    <section class="blog-container overflow-hidden">
+    <!-- offcanvas navbar -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="navbar" aria-labelledby="navbar">
+        <div class="offcanvas-header p-0 px-2">
+            <a class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white" href="index.html">
+                <img src="../assets/imagesandvectors/vectors/atit_logo.png" alt="logo">
+            </a>
+            <button type="button" class="m-2 p-0 btn shadow-none border-0 text-danger me-0" data-bs-dismiss="offcanvas"
+                aria-label="Close">
+                <i class="fa-solid fa-xmark fa-xl"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body px-0 py-5 text-center">
+            <ul class="navbar-nav ms-auto overflow-hidden mb-0 rounded-bottom-3">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="courses.html">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pay-after-placement.html">PAP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- nav ends -->
+    <section class="blog-container overflow-hidden pt-5 mt-5 pt-lg-0 mt-lg-0">
         <div class="row g-0">
-            <div class="left-blog col-lg-2 shadow1 ps-3">
+            <div class="left-blog col-lg-2 shadow1 ps-lg-3">
                 <ul class="nav flex-column">
-                    <li class="nav-item py-4">
+                    <li class="nav-item py-4 d-none d-lg-block">
                         <a class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white" href="index.html">
                             <img src="../assets/imagesandvectors/vectors/atit_logo.png" alt="logo"
                                 style="width: 70%;margin: auto;">
@@ -42,10 +119,10 @@
                     </li>
                     <li class="nav-item blog-drop position-relative">
                         <button
-                            class="nav-link active blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">It
-                            Jobs <i class="bi bi-caret-right-fill trans"></i></button>
+                            class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">It
+                            Jobs <i class="bi bi-caret-down-fill trans"></i></button>
                         <ul class="blog-drop-menu list-unstyled">
-                            <li class="nav-item"><a class="blog-drop-item nav-link active" href="#">Lucrative IT Job
+                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Lucrative IT Job
                                     Opportunities</a></li>
                             <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Employment
                                     Opportunities!</a></li>
@@ -60,58 +137,48 @@
                     <li class="nav-item blog-drop position-relative">
                         <button
                             class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Interviews
-                            <i class="bi bi-caret-right-fill trans"></i></button>
+                            <i class="bi bi-caret-down-fill trans"></i></button>
                         <ul class="blog-drop-menu list-unstyled">
-                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Lucrative IT Job
-                                    Opportunities</a></li>
-                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Employment
-                                    Opportunities!</a></li>
-                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Get Ahead Of The Job
-                                    Race</a></li>
-                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Your First IT Job
-                                    Interview</a></li>
-                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Dynamics Of The IT Job
-                                    Market And Fresh Graduates</a></li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Common Pitfalls In
+                                    Interviews</a></li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">I Know You're Probably
+                                    Eager</a></li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">The Job Market In 2023</a>
+                            </li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Dynamic Indian Job
+                                    Market</a></li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Introduction For Career</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item blog-drop position-relative">
                         <button
-                            class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Tech-Skills
-                            <i class="bi bi-caret-right-fill trans"></i></button>
+                            class="nav-link active blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Tech-Skills
+                            <i class="bi bi-caret-down-fill trans"></i></button>
                         <ul class="blog-drop-menu list-unstyled">
-                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Lucrative IT Job
-                                    Opportunities</a></li>
-                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Employment
-                                    Opportunities!</a></li>
-                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Get Ahead Of The Job
-                                    Race</a></li>
-                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Your First IT Job
-                                    Interview</a></li>
-                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Dynamics Of The IT Job
-                                    Market And Fresh Graduates</a></li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link active" href="#">Emerging
+                                    Technologies</a>
+                            </li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Change In Career</a></li>
                         </ul>
                     </li>
                     <li class="nav-item blog-drop position-relative">
                         <button
-                            class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">It
-                            Jobs <i class="bi bi-caret-right-fill trans"></i></button>
+                            class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">
+                            Others <i class="bi bi-caret-down-fill trans"></i></button>
                         <ul class="blog-drop-menu list-unstyled">
-                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Others</a></li>
-                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Employment
-                                    Opportunities!</a></li>
-                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Get Ahead Of The Job
-                                    Race</a></li>
-                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Your First IT Job
-                                    Interview</a></li>
-                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Dynamics Of The IT Job
-                                    Market And Fresh Graduates</a></li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Job-Hunting Chandrayaan
+                                    3</a></li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Clear Any Professional
+                                    Exam</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
             <div class="right-blog col-lg-8 col-xl-7 my-3">
                 <div class="p-3">
-                    <div class="blog-top d-flex align-items-center justify-content-between">
+                    <div
+                        class="blog-top d-flex align-items-center justify-content-between flex-wrap flex-column flex-lg-row">
                         <div>
                             <p class="m-0 text-1 fs-6 fw-medium primary-color">Emerging Technologies</p>
                         </div>
@@ -121,7 +188,7 @@
                                 <li class="breadcrumb-item active" aria-current="page">Tech Skills</li>
                             </ol>
                         </nav>
-                        <div>
+                        <div class="d-none d-lg-block">
                             <a href="../index.html" class="text-dark">Home</a>
                         </div>
                     </div>
@@ -189,7 +256,7 @@
 
                         <div class="blog-mid-content row my-5 py-5">
                             <div class="col-lg-8">
-                                <h1 class="blog-mid-header">
+                                <h1 class="blog-mid-header text-center text-lg-start">
                                     In-Demand Programming Languages
                                 </h1>
                                 <p class="secondary-text ">As Technology Continues To Advance At A Rapid Pace,
@@ -253,121 +320,98 @@
                             </div>
                         </div>
 
+                        <div>
+                            <div class="mb-3">
+                                <h2 class="primary-header text-center mb-3">Data Science
+                                </h2>
+
+                                <p class="secondary-text">
+                                    Data Science Has Emerged As A Prominent Field Due To The Rapid Expansion Of Data In
+                                    Recent Years. Businesses Are Now Heavily Dependent On Data Analysis To Obtain
+                                    Valuable Insights And Make Informed Decisions. In 2024, The Following Key Areas
+                                    Within Data Science Will Experience Significant Demand
+                                </p>
+                            </div>
+                            <div class="mb-3">
+                                <h2 class="secondary-header">Machine Learning</h2>
+                                <p class="secondary-text">Machine Learning Algorithms Enable Computers To Learn From
+                                    Data And Make Predictions Or Decisions Without Being Explicitly Programmed.
+                                    Professionals Skilled In Machine Learning Techniques And Algorithms Will Be Highly
+                                    Sought After.</p>
+                            </div>
+                            <div class="mb-3">
+                                <h2 class="secondary-header">Big Data Analytics</h2>
+                                <p class="secondary-text">The IoT Connects Various Devices, Allowing Them To Exchange
+                                    With The Proliferation Of Data, The Ability To Extract Valuable Insights From Large
+                                    Datasets Is Crucial. Proficiency In Big Data Analytics Tools And Techniques Such As
+                                    Hadoop, Spark, And SQL Will Be Highly Valued By Organizations
+                                </p>
+                            </div>
+                            <div class="mb-3">
+                                <h2 class="secondary-header">Data Visualization</h2>
+                                <p class="secondary-text">
+                                    Translating Complex Data Into Visually Appealing And Understandable Representations
+                                    Is A Valuable Skill. Professionals Who Can Effectively Communicate Data Insights
+                                    Through Data Visualization Tools Like Tableau Or Power BI Will Be In High Demand.
+                                </p>
+                            </div>
+                            <div class="mb-3">
+                                <h2 class="secondary-header">Data Engineering</h2>
+                                <p class="secondary-text">
+                                    Data Engineers Build The Infrastructure, Tools, And Frameworks Necessary For Data
+                                    Analysis. They Are Responsible For Data Collection, Extraction, Transformation, And
+                                    Loading (ETL) Processes. Proficiency In Data Engineering Tools And Technologies Will
+                                    Be Highly Sought After.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div class="mb-3">
+                                <h2 class="primary-header text-center mb-3">Cloud Computing
+                                </h2>
+
+                                <p class="secondary-text">
+                                    Cloud Computing Has Revolutionized The Way Businesses Operate And Store Their Data.
+                                    As Organizations Increasingly Migrate To The Cloud, Professionals With Expertise In
+                                    Cloud Computing Will Be In High Demand. Here Are Key Areas In Cloud Computing That
+                                    Will Be Highly Sought After In 2024
+                                </p>
+                            </div>
+                            <div class="mb-3">
+                                <h2 class="secondary-header">Cloud Architecture</h2>
+                                <p class="secondary-text">Designing And Implementing Cloud Infrastructure That Meets An
+                                    Organization's Requirements Is Crucial. Professionals Skilled In Cloud Architecture
+                                    Based On Platforms Like Amazon Web Services (AWS) Or Microsoft Azure Will Be Highly
+                                    Valued.</p>
+                            </div>
+                            <div class="mb-3">
+                                <h2 class="secondary-header">Cloud Security And Compliance</h2>
+                                <p class="secondary-text">With The Move To The Cloud, Ensuring Data Security And
+                                    Compliance Is Paramount. Professionals With Expertise In Cloud Security, Encryption,
+                                    And Governance Will Play A Crucial Role In Protecting Cloud-Based Systems.
+                                </p>
+                            </div>
+                            <div class="mb-3">
+                                <h2 class="secondary-header">DevOps</h2>
+                                <p class="secondary-text">
+                                    DevOps Combines Development And Operations, Focusing On The Collaboration Between
+                                    Software Developers And IT Operations. Professionals Skilled In DevOps Practices And
+                                    Tools Will Be Sought After For Their Ability To Streamline Software Development And
+                                    Deployment Processes.
+                                </p>
+                            </div>
+                            <div class="mb-3">
+                                <h2 class="secondary-header">Serverless Computing</h2>
+                                <p class="secondary-text">
+                                    Serverless Computing Allows Developers To Focus On Writing Code Without Worrying
+                                    About Server Management. Professionals With Expertise In Serverless Computing
+                                    Frameworks Like AWS Lambda Or Azure Functions Will Be In High Demand.
+                                </p>
+                            </div>
+                        </div>
+
                         <div class="recent-post">
-                            <div class="mb-3">
-                                <a href="#" class="post row align-items-center justify-content-center text-decoration-none">
-                                <div class="col-8 col-lg-4">
-                                    <p class="light-text">AI</p>
-                                    <h1 class="secondary-header mb-0 text-dark fw-bold">
-                                        Emerging Technologies
-                                    </h1>
-                                </div>
-                                <div class="d-none d-lg-block col-lg-4">
-                                    <p class="secondary-text mb-0">
-                                        The IT Industry Constantly Introduces New Technologies That Revolutionize The
-                                        Way We Live
-                                    </p>
-                                </div>
-                                <div class="col-4">
-                                    <img src="../assets/img/Blog/Blog4.png" alt="Emerging technological">
-                                </div>
-                            </a>
-                            </div>
-                            <div class="mb-3">
-                                <a href="#" class="post row align-items-center justify-content-center text-decoration-none">
-                                <div class="col-8 col-lg-4">
-                                    <p class="light-text">AI</p>
-                                    <h1 class="secondary-header mb-0 text-dark fw-bold">
-                                        Emerging Technologies
-                                    </h1>
-                                </div>
-                                <div class="d-none d-lg-block col-lg-4">
-                                    <p class="secondary-text mb-0">
-                                        The IT Industry Constantly Introduces New Technologies That Revolutionize The
-                                        Way We Live
-                                    </p>
-                                </div>
-                                <div class="col-4">
-                                    <img src="../assets/img/Blog/Blog4.png" alt="Emerging technological">
-                                </div>
-                            </a>
-                            </div>
-                            <div class="mb-3">
-                                <a href="#" class="post row align-items-center justify-content-center text-decoration-none">
-                                <div class="col-8 col-lg-4">
-                                    <p class="light-text">AI</p>
-                                    <h1 class="secondary-header mb-0 text-dark fw-bold">
-                                        Emerging Technologies
-                                    </h1>
-                                </div>
-                                <div class="d-none d-lg-block col-lg-4">
-                                    <p class="secondary-text mb-0">
-                                        The IT Industry Constantly Introduces New Technologies That Revolutionize The
-                                        Way We Live
-                                    </p>
-                                </div>
-                                <div class="col-4">
-                                    <img src="../assets/img/Blog/Blog4.png" alt="Emerging technological">
-                                </div>
-                            </a>
-                            </div>
-                            <div class="mb-3">
-                                <a href="#" class="post row align-items-center justify-content-center text-decoration-none">
-                                <div class="col-8 col-lg-4">
-                                    <p class="light-text">AI</p>
-                                    <h1 class="secondary-header mb-0 text-dark fw-bold">
-                                        Emerging Technologies
-                                    </h1>
-                                </div>
-                                <div class="d-none d-lg-block col-lg-4">
-                                    <p class="secondary-text mb-0">
-                                        The IT Industry Constantly Introduces New Technologies That Revolutionize The
-                                        Way We Live
-                                    </p>
-                                </div>
-                                <div class="col-4">
-                                    <img src="../assets/img/Blog/Blog4.png" alt="Emerging technological">
-                                </div>
-                            </a>
-                            </div>
-                            <div class="mb-3">
-                                <a href="#" class="post row align-items-center justify-content-center text-decoration-none">
-                                <div class="col-8 col-lg-4">
-                                    <p class="light-text">AI</p>
-                                    <h1 class="secondary-header mb-0 text-dark fw-bold">
-                                        Emerging Technologies
-                                    </h1>
-                                </div>
-                                <div class="d-none d-lg-block col-lg-4">
-                                    <p class="secondary-text mb-0">
-                                        The IT Industry Constantly Introduces New Technologies That Revolutionize The
-                                        Way We Live
-                                    </p>
-                                </div>
-                                <div class="col-4">
-                                    <img src="../assets/img/Blog/Blog4.png" alt="Emerging technological">
-                                </div>
-                            </a>
-                            </div>
-                            <div class="mb-3">
-                                <a href="#" class="post row align-items-center justify-content-center text-decoration-none">
-                                <div class="col-8 col-lg-4">
-                                    <p class="light-text">AI</p>
-                                    <h1 class="secondary-header mb-0 text-dark fw-bold">
-                                        Emerging Technologies
-                                    </h1>
-                                </div>
-                                <div class="d-none d-lg-block col-lg-4">
-                                    <p class="secondary-text mb-0">
-                                        The IT Industry Constantly Introduces New Technologies That Revolutionize The
-                                        Way We Live
-                                    </p>
-                                </div>
-                                <div class="col-4">
-                                    <img src="../assets/img/Blog/Blog4.png" alt="Emerging technological">
-                                </div>
-                            </a>
-                            </div>
                         </div>
 
                     </div>
@@ -447,10 +491,11 @@
     <!-- course Modal -->
     <div class="modal fade" id="contact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
         aria-labelledby="staticBackdropLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered p-5">
+        <div class="modal-dialog modal-dialog-centered p-3 p-md-5">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5 linear-gradient-text text-center" id="exampleModalLabel">Contact Form
+                    <h1 class="modal-title fs-5 linear-gradient-text text-center" id="exampleModalLabel">
+                        Contact Form
                     </h1>
                     <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
                         aria-label="Close"></button>
@@ -458,20 +503,20 @@
                 <div class="modal-body p-3">
                     <form id="contactForm" name="contactForm">
                         <div class="form-floating">
-                            <input type="text" class="form-control" name="fname" id="fname"
-                                placeholder="Enter your name" required>
+                            <input type="text" class="form-control" id="fname" name="fname"
+                                placeholder="Enter your name" required />
                             <label for="fname">Name <span class="text"> *</span></label>
                         </div>
                         <div class="form-floating">
                             <input type="email" class="form-control" id="email" name="email"
-                                placeholder="Enter your email" required>
+                                placeholder="Enter your email" required />
                             <label for="email">Email <span class="text"> *</span></label>
                         </div>
                         <div class="form-floating">
                             <input type="number" class="form-control" id="phone" name="phone"
                                 placeholder="Enter your phone number"
                                 oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                                maxlength="10" required>
+                                maxlength="10" required />
                             <label for="phone">Phone Number <span class="text"> *</span></label>
                         </div>
                         <div class="form-floating">
@@ -480,39 +525,31 @@
                             <label for="message">Message <span>(Optional)</span></label>
                         </div>
                         <div id="output" class="text-center"></div>
-                        <div class="text-center"> <button type="submit"
-                                class="btn btn-primary btn-block">Submit</button></div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Submit
+                            </button>
+                        </div>
                     </form>
-
                 </div>
             </div>
         </div>
     </div>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E4L74X1L7V"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag("js", new Date());
 
-        gtag("config", "G-E4L74X1L7V");
+    <!-- Google tag (gtag.js) -->
+    <script>
+        var blog = 1;
+        console.log(blog);
     </script>
     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
-        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
-        crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="../assets/js/script.js"></script>
     <script src="../assets/js/footer.js"></script>
+    <script src="../assets/js/newblog.js"></script>
 </body>
 
 </html>

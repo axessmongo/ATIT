@@ -101,6 +101,10 @@
     z-index: 5;
 }
 
+.recent-post .secondary-header {
+    font-size: 25px;
+}
+
 @media (max-width:992px) {
     .left-blog .flex-column {
         position: unset;
@@ -131,5 +135,9 @@
         z-index: 12;
         top: 100%;
         transform: scaleX(1) translate(0%, 0);
+    }
+
+    .recent-post .secondary-header{
+        font-size: 20px;
     }
 }
