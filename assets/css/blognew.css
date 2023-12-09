@@ -108,11 +108,11 @@
 
 span.fl {
     float: left;
-    width: 40px;
+    width: auto;
     font-size: 400%;
     font-family: algerian, courier;
     line-height: 80%;
-    margin: 0px 7px;
+    margin: 0px 10px;
 }
 
 #share .modal-dialog{
