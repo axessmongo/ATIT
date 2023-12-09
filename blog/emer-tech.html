@@ -29,12 +29,92 @@
 <body class="individualBlogs">
 
 
+    <!-- nav starts -->
 
-    <section class="blog-container overflow-hidden">
+    <div class="nav-holder d-lg-none">
+        <nav class="navbar navbar-expand-lg py-0 col-lg-10  mx-auto">
+            <div class="container-fluid p-0 d-flex align-items-start" data-aos="fade-down"
+                data-aos-anchor-placement="bottom-bottom" data-aos-duration="500">
+                <a class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white shadow1" href="index.html">
+                    <img src="../assets/imagesandvectors/vectors/atit_logo.png" alt="logo">
+                </a>
+                <button class="navbar-toggler d-none shadow-none ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <button class="d-lg-none ms-auto ms-md-0 canvas-bar bg-primary border-0 p-3" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#navbar" aria-controls="navbar">
+                    <i class="fa-solid fa-bars fa-xl text-white"></i>
+                </button>
+                <div class="collapse navbar-collapse position-relative" id="navbarSupportedContent">
+                    <ul class="navbar-nav shadow1 ms-auto mb-0 bg-light overflow-hidden rounded-bottom-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="courses.html">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a title="Pay after Placement" class="nav-link" href="pay-after-placement.html">PAP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- offcanvas navbar -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="navbar" aria-labelledby="navbar">
+        <div class="offcanvas-header p-0 px-2">
+            <a class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white" href="index.html">
+                <img src="../assets/imagesandvectors/vectors/atit_logo.png" alt="logo">
+            </a>
+            <button type="button" class="m-2 p-0 btn shadow-none border-0 text-danger me-0" data-bs-dismiss="offcanvas"
+                aria-label="Close">
+                <i class="fa-solid fa-xmark fa-xl"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body px-0 py-5 text-center">
+            <ul class="navbar-nav ms-auto overflow-hidden mb-0 rounded-bottom-3">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="courses.html">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pay-after-placement.html">PAP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- nav ends -->
+
+    <section class="blog-container overflow-hidden pt-5 mt-5">
         <div class="row g-0">
             <div class="left-blog col-lg-2 shadow1 ps-lg-3">
                 <ul class="nav flex-column">
-                    <li class="nav-item py-4">
+                    <li class="nav-item py-4 d-none d-lg-block">
                         <a class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white" href="index.html">
                             <img src="../assets/imagesandvectors/vectors/atit_logo.png" alt="logo"
                                 style="width: 70%;margin: auto;">
@@ -93,8 +173,8 @@
                     </li>
                     <li class="nav-item blog-drop position-relative">
                         <button
-                            class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">It
-                            Jobs <i class="bi bi-caret-down-fill trans"></i></button>
+                            class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">
+                            Others <i class="bi bi-caret-down-fill trans"></i></button>
                         <ul class="blog-drop-menu list-unstyled">
                             <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Others</a></li>
                             <li class="nav-item"><a class="blog-drop-item nav-link" href="#">Employment
