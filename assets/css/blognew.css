@@ -99,6 +99,7 @@
 .left-blog .flex-column {
     position: fixed;
     z-index: 5;
+    left: 0;
 }
 
 .recent-post .secondary-header {
@@ -107,10 +108,11 @@
 
 span.fl {
     float: left;
-    width: 30px;
+    width: 40px;
     font-size: 400%;
     font-family: algerian, courier;
     line-height: 80%;
+    padding-left: 10px;
 }
 
 

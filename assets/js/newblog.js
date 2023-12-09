@@ -296,6 +296,18 @@ setTimeout(() => {
     $('.left-blog').removeAttr('data-aos').removeAttr('data-aos-duration');
 }, 1000);
 
-$(window).scroll(()=>{
+$(window).scroll(() => {
     $('.left-blog').removeAttr('data-aos').removeAttr('data-aos-duration');
+})
+
+let blogWidth = $('.left-blog ').width();
+
+if ($(window).width() > 991) {
+    $('.left-blog .flex-column').css("width", blogWidth + 20+'px');
+}
+
+$(window).resize(()=>{
+    if ($(window).width() > 991) {
+        $('.left-blog .flex-column').css("width", blogWidth +20+ 'px');
+    }
 })
