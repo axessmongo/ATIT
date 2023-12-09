@@ -1952,7 +1952,18 @@ input:-webkit-autofill:focus {
 .individualBlogs .share #whatsapp-share:hover {
     color: #00be07 !important
 }
-
+.individualBlogs .left-blog a:hover{
+    background-color: rgb(244, 241, 241);
+}
+.individualBlogs .left-blog button:hover{
+    background-color: rgb(244, 241, 241);
+}
+.individualBlogs .recent-post a{
+    transition:  0.1s ease-in-out;
+}
+.individualBlogs .recent-post a:hover{
+    opacity: 0.7;
+}
 .individualBlogs .share #instagram-share:hover {
     color: #f2051c !important
 }
