@@ -7,18 +7,18 @@ document.addEventListener("DOMContentLoaded", function () {
     form.addEventListener("submit", function (event) {
       event.preventDefault();
   
-      const fname = document.getElementById("fname").value;
+      const name = document.getElementById("name").value;
       const email = document.getElementById("email").value;
       const phone = document.getElementById("phone").value;
       const message = document.getElementById("message").value;
-      console.log("fname", fname, email, phone, message);
-      if (fname === "" || email === "" || phone === "") {
+      console.log("name", name, email, phone, message);
+      if (name === "" || email === "" || phone === "") {
         output.textContent = "All fields are required!";
         return;
       }
   
       const nameRegex = /^[a-zA-Z\s]+$/;
-      if (!nameRegex.test(fname)) {
+      if (!nameRegex.test(name)) {
         output.classList.add("text-danger");
         output.textContent = "Invalid name. Please use only letters.";
         return;
