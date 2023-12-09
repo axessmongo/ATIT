@@ -303,11 +303,24 @@ $(window).scroll(() => {
 let blogWidth = $('.left-blog ').width();
 
 if ($(window).width() > 991) {
-    $('.left-blog .flex-column').css("width", blogWidth + 20+'px');
+    $('.left-blog .flex-column').css("width", blogWidth + 20 + 'px');
 }
 
-$(window).resize(()=>{
+$(window).resize(() => {
     if ($(window).width() > 991) {
-        $('.left-blog .flex-column').css("width", blogWidth +20+ 'px');
+        $('.left-blog .flex-column').css("width", blogWidth + 20 + 'px');
     }
 })
+
+setTimeout(function () {
+    $('.popup').removeClass('pop-ani');
+}, 2000);
+
+
+setInterval(function () {
+    $('.popup').addClass('pop-ani');
+}, 5000);
+
+setInterval(function () {
+    $('.popup').removeClass('pop-ani');
+}, 10000);
