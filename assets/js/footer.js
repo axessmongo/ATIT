@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", function () {
     </div>
     <div class="container">
         <div class="copyright">
-            Copyrights  &copy; <strong><span>ATIT. </span></strong>All Rights Reserved. <a href="./privacyPolicy.html" class = "d-block d-md-inline position-relative">Privacy policy</a>
+            Copyrights  &copy; <strong><span>ATIT. </span></strong>All Rights Reserved. <a href="./privacy_policy.html" class = "d-block d-md-inline position-relative">Privacy policy</a>
         </div>
 
     </div>
@@ -111,12 +111,12 @@ $(document).ready(function () {
     
     if ($('.coursesList').length > 0) {      
         $('footer .courses-links a').attr('href', '../../courses.html');
-        $('.copyright a').attr('href', '../../privacyPolicy.html');
+        $('.copyright a').attr('href', '../../privacy_policy.html');
              link.href = '../../assets/imagesandvectors/vectors/logo.png';
     }
     else if ($('.individualBlogs').length > 0) {
         $('footer .courses-links a').attr('href', '../courses.html');
-        $('.copyright a').attr('href', '../privacyPolicy.html');
+        $('.copyright a').attr('href', '../privacy_policy.html');
              link.href = '../assets/imagesandvectors/vectors/logo.png'; 
         }
     document.head.appendChild(link);
