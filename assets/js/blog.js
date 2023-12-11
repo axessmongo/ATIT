@@ -106,7 +106,7 @@
         </div>
         </a>
         <a href="./blog/tech_interviews.html" class="text-decoration-none blog-title blog-title">
-        Introduction For Career
+        Clear Technical Interviews
         </a>
     </div>`,
             // Add more content here
