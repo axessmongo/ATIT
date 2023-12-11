@@ -1,11 +1,637 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="overflow: auto;">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Job Market</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/scroll.css" />
+    <link rel="stylesheet" href="../assets/css/animation.css" />
+    <link rel="stylesheet" href="../assets/css/blognew.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-    
+
+<body class="overflow-x-hidden p-0 individualBlogs" blog-name="emerging-tech">
+    <!-- nav starts -->
+
+    <div class="nav-holder d-lg-none">
+        <nav class="navbar navbar-expand-lg py-0 col-lg-10 mx-auto">
+            <div class="container-fluid p-0 d-flex align-items-start" data-aos="fade-down"
+                data-aos-anchor-placement="bottom-bottom" data-aos-duration="500">
+                <a class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white shadow1" href="../index.html">
+                    <img src="../assets/imagesandvectors/vectors/atit_logo.png" alt="logo" />
+                </a>
+                <button class="navbar-toggler d-none shadow-none ms-auto" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <button class="d-lg-none ms-auto ms-md-0 canvas-bar bg-primary border-0 p-3" type="button"
+                    data-bs-toggle="offcanvas" data-bs-target="#navbar" aria-controls="navbar">
+                    <i class="fa-solid fa-bars fa-xl text-white"></i>
+                </button>
+                <div class="collapse navbar-collapse position-relative" id="navbarSupportedContent">
+                    <ul class="navbar-nav shadow1 ms-auto mb-0 bg-light overflow-hidden rounded-bottom-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../courses.html">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a title="Pay after Placement" class="nav-link" href="../pay-after-placement.html">PAP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="../blog.html">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- offcanvas navbar -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="navbar" aria-labelledby="navbar">
+        <div class="offcanvas-header p-0 px-2">
+            <a class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white" href="../index.html">
+                <img src="../assets/imagesandvectors/vectors/atit_logo.png" alt="logo" />
+            </a>
+            <button type="button" class="m-2 p-0 btn shadow-none border-0 text-danger me-0" data-bs-dismiss="offcanvas"
+                aria-label="Close">
+                <i class="fa-solid fa-xmark fa-xl"></i>
+            </button>
+        </div>
+        <div class="offcanvas-body px-0 py-5 text-center">
+            <ul class="navbar-nav ms-auto overflow-hidden mb-0 rounded-bottom-3">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../contact.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../courses.html">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../pay-after-placement.html">PAP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="../blog.html">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- nav ends -->
+
+
+
+    <section class="blog-container overflow-hidden pt-5 mt-5 pt-lg-0 mt-lg-0">
+        <div class="row g-0">
+            <div class="left-blog col-lg-2 shadow1 ps-lg-3 z-3" data-aos="fade-right" data-aos-duration="700">
+                <ul class="nav flex-column">
+                    <li class="nav-item py-4 d-none d-lg-block mb-xxl-5">
+                        <a class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white" href="../index.html">
+                            <img src="../assets/imagesandvectors/vectors/atit_logo.png" alt="logo"
+                                style="width: 70%;margin: auto;">
+                        </a>
+                    </li>
+                    <li class="nav-item blog-drop position-relative">
+                        <button
+                            class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">IT
+                            Jobs <i class="bi bi-caret-down-fill trans"></i></button>
+                        <ul class="blog-drop-menu list-unstyled">
+                            <li class="nav-item"><a class="blog-drop-item nav-link"
+                                    href="./exploring_lucrative.html">Lucrative IT Job
+                                    Opportunities</a></li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link"
+                                    href="./employment_opportunity.html">Employment
+                                    Opportunities</a></li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link" href="./job_race.html">Get Ahead Of
+                                    The Job
+                                    Race</a></li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link" href="./first_itjob.html">Your First
+                                    IT Job
+                                    Interview</a></li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link"
+                                    href="./dynamics_of_it.html">Dynamics Of The IT Job
+                                </a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item blog-drop position-relative">
+                        <button
+                            class="nav-link active blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Interviews
+                            <i class="bi bi-caret-down-fill trans"></i></button>
+                        <ul class="blog-drop-menu list-unstyled">
+                            <li class="nav-item"><a class="blog-drop-item nav-link" href="./common_pitfalls.html">Common
+                                    Pitfalls In
+                                    Interviews</a></li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link" href="./resume.html">Polishing Up
+                                    Your Resume</a></li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link active" href="./job_market.html">The
+                                    Job
+                                    Market In 2023</a>
+                            </li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link"
+                                    href="./dynamic_indian_job.html">Dynamic Indian Job
+                                    Market</a></li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link" href="./tech_interviews.html">Clear
+                                    Technical Interviews</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item blog-drop position-relative">
+                        <button
+                            class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">Tech-Skills
+                            <i class="bi bi-caret-down-fill trans"></i></button>
+                        <ul class="blog-drop-menu list-unstyled">
+                            <li class="nav-item"><a class="blog-drop-item nav-link" href="./emerging_tech.html">Emerging
+                                    Technologies</a>
+                            </li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link"
+                                    href="./change_in_career.html">Change In Career</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item blog-drop position-relative">
+                        <button
+                            class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">
+                            Others <i class="bi bi-caret-down-fill trans"></i></button>
+                        <ul class="blog-drop-menu list-unstyled">
+                            <li class="nav-item"><a class="blog-drop-item nav-link"
+                                    href="./chandrayaan.html">Job-Hunting Chandrayaan
+                                    3</a></li>
+                            <li class="nav-item"><a class="blog-drop-item nav-link"
+                                    href="./professional_exam.html">Clear Any Professional
+                                    Exam</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-blog col-lg-8 col-xxl-7 my-3">
+                <div class="p-3">
+                    <div data-aos="fade-down" data-aos-duration="700"
+                        class="blog-top d-flex align-items-center justify-content-between flex-wrap flex-column flex-lg-row">
+                        <div>
+                            <p class="m-0 text-1 fs-6 fw-medium primary-color">The Job Market</p>
+                        </div>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb mb-0">
+                                <li class="breadcrumb-item"><a href="../blog.html">Blogs</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Interviews
+                                </li>
+                            </ol>
+                        </nav>
+                        <div class="d-none d-lg-block">
+                            <a href="../index.html" class="text-dark">Home</a>
+                        </div>
+                    </div>
+
+                    <div class="container my-5 overflow-hidden">
+                        <img src="../assets/img/Blog/Blog4.png" class="mb-3" alt="Emerging technological"
+                            data-aos="zoom-in" data-aos-duration="500">
+                        <h2 class="primary-header text-center mb-3">What is this post about?
+                        </h2>
+                        <p class="secondary-text mb-3 pt-3" data-aos="fade-up" data-aos-duration="600">
+                            <span class="fl">L</span>et’s Agree Upon Something. The Job Market In 2023 And Beyond Is
+                            Going To Be Highly Competitive. Being Highly Skilled In The Field You’re Applying Job For Is
+                            Not Going To Be EnoughLet’s Agree Upon Something. The Job Market In 2023 And Beyond Is Going
+                            To Be Highly Competitive. Being Highly Skilled In The Field You’re Applying Job For Is Not
+                            Going To Be Enough.
+                        </p>
+
+                        <p class="secondary-text mb-3" data-aos="fade-up" data-aos-duration="600">Then, What Do I Need
+                            More, You May Ask.</p>
+
+                        <p class="secondary-text mb-3" data-aos="fade-up" data-aos-duration="600"> In Today's
+                            Competitive Job Market, It Can Be Challenging To Stand Out From The Crowd And
+                            Catch The Attention Of Recruiters. Whether You're A Recent Graduate Or An Experienced
+                            Professional Looking For A Career Change, The Lack Of Visibility And The Fierce Competition
+                            Can Make It Challenging To Land Your Dream Job. However, By Understanding And Addressing The
+                            Common Obstacles That Job Seekers Face, You Can Significantly Improve Your Chances Of
+                            Getting Noticed By Recruiters.
+                        </p>
+                        <p class="secondary-text mb-3" data-aos="fade-up" data-aos-duration="600">This Article Will
+                            Explore Several Strategies To Overcome These Hurdles And Set Yourself
+                            Apart From The Competition.
+                        </p>
+
+                        <div>
+                            <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                <h2 class="primary-header text-center mb-3">Competition
+                                </h2>
+                                <p class="secondary-text">
+                                    The Job Market Is Highly Competitive, And Every Opportunity May Attract Numerous
+                                    Qualified Applicants. To Outshine Your Competition, You Need To Demonstrate Your
+                                    Unique Value Proposition. Here Are Some Effective Strategies
+
+                                    Highlight Your Achievements: Use Quantifiable Metrics And Specific Examples To
+                                    Showcase Your Accomplishments And Prove Your Worth To Potential Employers.
+
+                                    Stand Out With A Personalised Cover Letter: Tailor Your Cover Letter To The Specific
+                                    Company And Role, Demonstrating Your Understanding Of Their Needs And How You Can
+                                    Contribute To Their Success.
+
+                                    Stand Out With A Personalised Cover Letter: Tailor Your Cover Letter To The Specific
+                                    Company And Role, Demonstrating Your Understanding Of Their Needs And How You Can
+                                    Contribute To Their Success.
+
+                                    Show Enthusiasm And Passion: Display A Genuine Interest In The Company And Role
+                                    During Interviews To Differentiate Yourself From Other Candidates Who May Simply Be
+                                    Going Through The Motions Remember, It's Not Just About Having The Required Skills
+                                    And Qualifications, But Also About Effectively Communicating How You Can Bring Value
+                                    To The Company And Solve Its Challenges
+                                </p>
+                            </div>
+                            <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                <h2 class="secondary-header">Lack Of Visibility</h2>
+                                <p class="secondary-text">One Of The Most Common Challenges Job Seekers Encounter Is A
+                                    Lack Of Visibility. Recruiters Receive Numerous Applications For Each Job Posting,
+                                    Making It Crucial For You To Make A Lasting Impression. To Increase Your Visibility,
+                                    Consider The Following Tips:</p>
+
+                                <p class="secondary-text"> Optimise Your Resume: Use Relevant Keywords And Key Phrases
+                                    Tailored To The Specific
+                                    Job Description To Ensure That Your Resume Stands Out In Applicant Tracking Systems.
+                                    Leverage Professional Networking Platforms: Create A Compelling LinkedIn Profile And
+                                    Actively Engage With Industry Groups And Professionals To Expand Your Network And
+                                    Increase Your Online Visibility.</p>
+
+                                <p class="secondary-text"> Build A Personal Brand: Share Valuable Content, Showcase Your
+                                    Expertise, And Engage
+                                    With Your Target Audience Through Your Professional Website Or Blog. By Taking These
+                                    Steps, You Can Enhance Your Visibility And Make It Easier For Recruiters To Find And
+                                    Consider Your Application.</p>
+                            </div>
+                            <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                <h2 class="secondary-header">No Relevant Experience</h2>
+                                <p class="secondary-text">Many Job Seekers Struggle With A Lack Of Relevant Experience,
+                                    Particularly When Trying To Transition Into A New Industry Or Role. While It May Be
+                                    Challenging, There Are Strategies You Can Employ To Overcome This Obstacle:</p>
+
+                                <p class="secondary-text">Emphasise Transferable Skills: Identify And Highlight The
+                                    Relevant Skills,
+                                    Knowledge, And Experiences You Gained From Previous Roles Or Even Non-Work-Related
+                                    Activities. Show How These Skills Can Be Applied To The New Position</p>
+
+                                <p class="secondary-text"> Pursue Internships Or Volunteer Work: Gain Practical
+                                    Experience And Industry
+                                    Exposure By Taking On Internships Or Volunteering Opportunities. This Demonstrates
+                                    Your Commitment To Learning And Adapting To New Environments</p>
+
+                                <p class="secondary-text"> Invest In Continuous Learning: Enhance Your Expertise And
+                                    Expand Your Knowledge
+                                    Through Online Courses, Certifications, Or Workshops. Acquiring New Skills Can
+                                    Compensate For The Lack Of Experience In Certain Areas.</p>
+
+                                <p class="secondary-text">Remember, Recruiters Value Candidates Who Exhibit A
+                                    Willingness To Learn And Adapt,
+                                    So Make Sure To Emphasise Your Eagerness To Grow.</p>
+                            </div>
+                            <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                <h2 class="secondary-header">Time Management</h2>
+                                <p class="secondary-text">
+                                    Finding A Job Can Be Time-Consuming, Particularly If You're Juggling Other
+                                    Responsibilities Or Currently Employed Elsewhere. However, Optimising Your Time
+                                    Management And Job Search Process Can Greatly Improve Your Efficiency. Consider The
+                                    Following Suggestions: </p>
+
+                                <p class="secondary-text"> Set Clear Goals And Priorities: Identify The Most Important
+                                    Tasks And Allocate
+                                    Dedicated Time For Job Searching, Application Submission, And Interview Preparation.
+                                    Streamline Your Job Search: Utilise Job Boards, Professional Networking Platforms,
+                                    And Recruitment Agencies To Narrow Down Your Search And Focus On The Most Relevant
+                                    Opportunities</p>
+
+                                <p class="secondary-text"> Automate Where Possible: Take Advantage Of Technology To
+                                    Automate Repetitive Tasks,
+                                    Such As Setting Up Job Alerts Or Using Software Tools To Track Your Applications And
+                                    Follow-Up Activities. By Managing Your Time Effectively And Employing Smart
+                                    Strategies, You Can Maximise Your Productivity And Increase Your Chances Of Securing
+                                    A Job In A Shorter Time Frame.
+                                </p>
+                            </div>
+                            <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                <h2 class="secondary-header">Handling Rejection</h2>
+                                <p class="secondary-text">
+                                    Rejection Is A Common Part Of The Job Search Process, And It Can Be Disheartening.
+                                    However, It's Crucial Not To Let Rejection Discourage You. Instead, Use It As A
+                                    Learning Opportunity And A Chance To Improve Your Approach. Consider The Following
+                                    Actions </p>
+
+                                <p class="secondary-text"> Feedback: If You Receive A Rejection, Politely Request
+                                    Feedback From The Employer Or
+                                    Interviewer. Their Insights Can Provide Valuable Guidance For Future Applications
+                                    And Interviews </p>
+
+                                <p class="secondary-text"> Identify Areas Of Improvement: Analyse Your Previous
+                                    Applications And Interview
+                                    Performances To Pinpoint Any Weaknesses Or Gaps. Work On Enhancing Those Areas To
+                                    Increase Your Chances Of Success In Future Opportunities.</p>
+
+                                <p class="secondary-text"> Stay Persistent AndPositive: Maintaining A Positive Mindset
+                                    And Persevering Through
+                                    Rejections Is
+                                    Essential. Remember That Every Rejection Brings You Closer To The Right Opportunity.
+                                    By Treating Rejection As A Stepping Stone Rather Than A Setback, You Can Grow Both
+                                    Personally And Professionally, Ultimately Increasing Your Chances Of Success.
+                                </p>
+                            </div>
+
+                            <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                <h2 class="secondary-header">Preparing Resume And Other Docs</h2>
+                                <p class="secondary-text">
+                                    Tailoring Your Application Materials, Such As Your Resume And Cover Letter, To Each
+                                    Job Opportunity Is Vital To Stand Out. However, It Can Be Time-Consuming And
+                                    Challenging To Customise Each Application. Here's How You Can Overcome This
+                                    Difficulty: </p>
+
+                                <p class="secondary-text"> Create A Master Template: Develop A Comprehensive Resume And
+                                    Cover Letter Containing
+                                    All Relevant Information About Your Skills, Experiences, And Achievements. From This
+                                    Master Template, It Will Be Easier To Make Targeted Adjustments For Specific Roles.
+                                </p>
+
+                                <p class="secondary-text"> Research Of The Company And Role: Gain A Thorough
+                                    Understanding Of The Company
+                                    Culture, Values, And Job Requirements. Incorporate This Knowledge While Customising
+                                    Your Application Materials To Align With What The Employer Is Seeking.</p>
+
+                                <p class="secondary-text"> Highlight The Most Relevant Information: Tailor Your Resume
+                                    To Emphasise Your Most
+                                    Relevant Skills And Experiences That Directly Relate To The Job Description. Focus
+                                    On Demonstrating How You Can Contribute To The Company's Success. Remember, Quality
+                                    Over Quantity Is Essential When It Comes To Tailored Application Materials. Taking
+                                    The Time To Personalise Your Application Shows Your Genuine Interest And Can
+                                    Significantly Increase Your Chances Of Getting Noticed.
+                                </p>
+                            </div>
+
+                            <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                <h2 class="secondary-header">Clarity In Career Goals</h2>
+                                <p class="secondary-text">
+                                    For Some Job Seekers, The Lack Of Clear Career Goals Can Hinder Their Progress.
+                                    However, By Developing A Clear Vision And Taking Actionable Steps, You Can Overcome
+                                    This Challenge. Consider These Steps:</p>
+
+                                <p class="secondary-text"> Reflect On Your Values And Interests: Take The Time To
+                                    Understand Your Personal
+                                    Values, Interests, And Passions. Reflecting On What Truly Drives You Can Help
+                                    Identify Potential Career Paths Aligned With Your Values </p>
+
+                                <p class="secondary-text"> Seek Guidance And Advice: Consult Mentors, Career Coaches, Or
+                                    Experienced
+                                    Professionals In Your Desired Field To Gain Insights Into Specific Industries Or
+                                    Roles. Their Guidance Can Help You Identify Suitable Career Goals. </p>
+
+                                <p class="secondary-text"> Experiment And Explore: Consider Taking On Internships,
+                                    Volunteering, Or Part-Time
+                                    Roles In Different Industries Or Fields To Gain Practical Exposure And Test Your
+                                    Interest And Aptitude. Remember, Career Goals May Evolve Over Time, And It's
+                                    Essential To Remain Open To New Possibilities And Adaptable In Your Journey Towards
+                                    Finding Your Ideal Career Path
+                                </p>
+
+                                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                    <h2 class="secondary-header">Limited Or No Networking</h2>
+                                    <p class="secondary-text">
+                                        Networking Plays A Significant Role In A Successful Job Search, Yet Many Job
+                                        Seekers Struggle With It, Particularly If They Lack Experience Or Confidence In
+                                        Networking Situations. To Overcome This Barrier, Consider The Following
+                                        Strategies: </p>
+
+                                     <p class="secondary-text">   Attend Industry Events And Conferences: Connect With Professionals In Your
+                                        Desired Field By Attending Relevant Events And Conferences. These Gatherings
+                                        Provide Valuable Opportunities To Initiate Conversations And Build Professional
+                                        Relationships.</p>
+
+                                       <p class="secondary-text">Utilise Online Networking Platforms: Leverage Platforms Like LinkedIn To Expand
+                                        Your Network, Join Industry-Specific Groups, And Engage In Meaningful
+                                        Conversations With Professionals Who Share Similar Interests Or Career Paths.</p>
+
+                                      <p class="secondary-text">Seek Informational Interviews: Request Informal Meetings With Professionals In
+                                        Your Field Of Interest To Gain Insights Into Their Career Journeys, Seek Advice,
+                                        And Potentially Uncover Hidden Job Opportunities</p>
+
+                                      <p class="secondary-text">  Remember, Networking Is About Building Genuine Connections, So Focus On
+                                        Establishing Relationships Based On Mutual Respect And Shared Interests Rather
+                                        Than Solely Seeking Job Opportunities.
+                                    </p>
+                                </div>
+
+                                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                                    <h2 class="secondary-header">Key Takeaway</h2>
+                                    <p class="secondary-text">
+                                        Overcoming The Obstacles That Stand Between You And Getting Noticed By
+                                        Recruiters Requires Determination, Strategy, And A Willingness To Improve. </p>
+
+                                       <p class="secondary-text"> By Focusing On Increasing Your Visibility, Differentiating Yourself From The
+                                        Competition, Embracing Rejection As A Learning Opportunity, Showcasing
+                                        Transferable Skills, Managing Your Time Effectively, Optimising Your Application
+                                        Materials, Setting Clear Career Goals, And Developing Networking Skills, You Can
+                                        Significantly Improve Your Chances Of Standing Out And Landing Your Dream Job.</p>
+
+                                      <p class="secondary-text">Remember, Success In The Job Market Often Requires An Ongoing Commitment To
+                                        Personal And Professional Growth, So Stay Motivated, Persistent, And Open To New
+                                        Opportunities.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-duration="600">
+                            <button class="button-74" role="button" data-bs-toggle="modal" data-bs-target="#share">Share
+                                this post</button>
+                        </div>
+
+                        <div class="recent-post">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="ad-blog"></div>
+        </div>
+    </section>
+
+
+    <!-- ======= Footer ======= -->
+
+    <div id="footerElement"></div>
+
+    <!-- End Footer -->
+
+    <div id="rocket-container" class="cursor" data-aos="zoom-in">
+        <dotlottie-player src="https://lottie.host/a3930b1d-eaf8-4fc4-a6b4-7ba7c5654523/tqWYmbEE3y.json"
+            background="transparent" speed="1" id="rocket" loop autoplay></dotlottie-player>
+    </div>
+
+    <div
+        class="position-fixed z-3 bottom-0 d-flex align-items-center flex-column justify-content-center overflow-visible">
+        <div class="h-250px">
+            <div class="bell d-none overflow-visible position-relative" data-aos="fade-right" data-aos-duration="1000">
+                <dotlottie-player src="https://lottie.host/7eea6db9-f536-4f25-9f36-55e284faf207/afUTIVqW70.json"
+                    background="transparent" speed="1" style="width: 90px" loop autoplay></dotlottie-player>
+                <span class="position-absolute top-0 start-50 d-none translate-middle badge rounded-pill bg-danger">
+                    New
+                </span>
+                <div class="cloud">
+                    <a href="../pay-after-placement.html"
+                        class="shadow1 cloud-text primary-text py-3 py-1 rounded-3 text-decoration-none d-block text-light">
+                        Pay After Placement
+                        <i class="fa-solid fa-caret-left"></i>
+                    </a>
+                </div>
+            </div>
+            <a href="../pay-after-placement.html" class="popup pop-ani text-decoration-none">
+                <span>P</span>
+                <span>a</span>
+                <span>y</span>
+                <span> </span>
+                <span>A</span>
+                <span>f</span>
+                <span>t</span>
+                <span>e</span>
+                <span>r</span>
+                <span> </span>
+                <span>P</span>
+                <span>l</span>
+                <span>a</span>
+                <span>c</span>
+                <span>e</span>
+                <span>m</span>
+                <span>e</span>
+                <span>n</span>
+                <span>t</span>
+            </a>
+            <div class="overflow-visible class-ico" data-aos="fade-right" data-aos-duration="1000"
+                data-bs-toggle="modal" data-bs-target="#contact">
+                <dotlottie-player title="contact"
+                    src="https://lottie.host/a335969b-c315-4035-be6b-d18bed4b5831/l73y30ZFSl.json"
+                    background="transparent" speed="1" style="width: 80px" loop autoplay></dotlottie-player>
+            </div>
+        </div>
+
+        <a href="https://api.whatsapp.com/send/?phone=%2B917845721438&text&app_absent=0" target="_blank" id="wa"
+            class="cursor">
+            <img src="../assets/imagesandvectors/vectors/whatsapp.png" alt="whatsapp" class="img-fluid"
+                style="width: 70px" />
+        </a>
+    </div>
+
+    <!-- course Modal -->
+    <div class="modal fade" id="contact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered p-3 p-md-5">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 linear-gradient-text text-center" id="exampleModalLabel">
+                        Contact Form
+                    </h1>
+                    <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-3">
+                    <form id="contactForm" name="contactForm">
+                        <div class="form-floating">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name"
+                                required />
+                            <label for="name">Name <span class="text"> *</span></label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="Enter your email" required />
+                            <label for="email">Email <span class="text"> *</span></label>
+                        </div>
+                        <div class="form-floating">
+                            <input type="number" class="form-control" id="phone" name="phone"
+                                placeholder="Enter your phone number"
+                                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                                maxlength="10" required />
+                            <label for="phone">Phone Number <span class="text"> *</span></label>
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" id="message" name="message" rows="3"
+                                placeholder="Enter your message" style="height: 80px"></textarea>
+                            <label for="message">Message <span>(Optional)</span></label>
+                        </div>
+                        <div id="output" class="text-center"></div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary btn-block">
+                                Submit
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal fade" id="share" tabindex="-1" aria-labelledby="share" aria-hidden="true">
+        <div class="modal-dialog my-0 mx-auto">
+            <div class="modal-content">
+                <div class="modal-body px-3 py-2">
+                    <div>
+                        <a href="#" id="whatsapp-share" data-action="share/whatsapp/share" target="_blank"
+                            class="share-ico text-decoration-none mx-2 fs-4 text-success">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                        <a href="#" id="instagram-share" data-action="share/instagram/share" target="_blank"
+                            class="share-ico text-decoration-none mx-2 fs-4 text-danger">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="#" id="facebook-share" data-action="share/facebook/share" target="_blank"
+                            class="share-ico text-decoration-none mx-2 fs-4">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E4L74X1L7V"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag("js", new Date());
+
+        gtag("config", "G-E4L74X1L7V");
+    </script>
+    <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../assets/js/finisher-header.es5.min.js" type="text/javascript"></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/footer.js"></script>
+    <script src="../assets/js/contact.js"></script>
+    <script src="../assets/js/newblog.js"></script>
+    <script src="../assets/js/blogShare.js"></script>
+
 </body>
+
 </html>
