@@ -1,5 +1,5 @@
 var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duration="600">
-<a href="#"
+<a href="./emerging_tech.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Tech Skills</p>
@@ -21,7 +21,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </div>
 
 <div class="mb-3 job-hunt" data-aos="fade-right" data-aos-duration="600">
-<a href="#"
+<a href="./chandrayaan.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Others</p>
@@ -41,7 +41,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </div>
 
 <div class="mb-3 lucrative-it" data-aos="fade-left" data-aos-duration="600">
-<a href="#"
+<a href="exploring_lucrative.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">IT-Jobs</p>
@@ -61,12 +61,12 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </div>
 
 <div class="mb-3 time-to-apply" data-aos="fade-right" data-aos-duration="600">
-<a href="#"
+<a href="./resume.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Interviews</p>
         <h1 class="secondary-header mb-0 text-dark fw-bold">
-        I Know You're Probably Eager
+        Polishing Up Your Resume
         </h1>
     </div>
     <div class="d-none d-lg-block col-lg-4">
@@ -81,7 +81,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </div>
 
 <div class="mb-3 change-carrer" data-aos="fade-left" data-aos-duration="600">
-<a href="#"
+<a href="./change_in_career.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Tech Skills</p>
@@ -101,7 +101,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </div>
 
 <div class="mb-3 common-pitfall" data-aos="fade-right" data-aos-duration="600">
-<a href="#"
+<a href="./common_pitfalls.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Interviews</p>
@@ -121,7 +121,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </div>
 
 <div class="mb-3 emp-opp" data-aos="fade-left" data-aos-duration="600">
-<a href="#"
+<a href="./employment_opportunity.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">IT-Jobs</p>
@@ -141,7 +141,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </div>
 
 <div class="mb-3 job-market-2023" data-aos="fade-right" data-aos-duration="600">
-<a href="#"
+<a href="./job_market.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Interviews</p>
@@ -161,7 +161,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </div>
 
 <div class="mb-3 job-race" data-aos="fade-left" data-aos-duration="600">
-<a href="#"
+<a href="./job_race.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">IT-Jobs</p>
@@ -181,7 +181,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </div>
 
 <div class="mb-3 professional-exam" data-aos="fade-right" data-aos-duration="600">
-<a href="#"
+<a href="./professional_exam.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Others</p>
@@ -201,7 +201,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </div>
 
 <div class="mb-3 job-interview" data-aos="fade-left" data-aos-duration="600">
-<a href="#"
+<a href="first_itjob.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">IT-Jobs</p>
@@ -221,7 +221,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </div>
 
 <div class="mb-3 job-market" data-aos="fade-right" data-aos-duration="600">
-<a href="#"
+<a href="dynamic_indian_job.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Interviews</p>
@@ -241,7 +241,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </div>
 
 <div class="mb-3 dynamic-it-job-market" data-aos="fade-left" data-aos-duration="600">
-<a href="#"
+<a href="./dynamics_of_it.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">IT-Jobs</p>
@@ -261,12 +261,12 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </div>
 
 <div class="mb-3 intro-carrer" data-aos="fade-right" data-aos-duration="600">
-<a href="#"
+<a href="./tech_interviews.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Interviews</p>
         <h1 class="secondary-header mb-0 text-dark fw-bold">
-        Introduction For Career
+        Clear Technical Interview
         </h1>
     </div>
     <div class="d-none d-lg-block col-lg-4">

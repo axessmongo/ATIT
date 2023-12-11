@@ -104,16 +104,16 @@ img {
     letter-spacing: .5px;
 }
 
-.primary-mb {
-    margin-bottom: 100px;
-}
+
 
 .secondary-text {
     font-size: 15px;
     letter-spacing: .5px;
     color: var(--link-color);
 }
-
+.primary-mb {
+    margin-bottom: 100px;
+}
 .cursor {
     cursor: pointer;
 }
