@@ -1,4 +1,4 @@
-var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duration="600">
+var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-duration="600">
 <a href="./emerging_tech.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
@@ -6,7 +6,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
         <h1 class="secondary-header mb-0 text-dark fw-bold">
             Emerging Technologies
         </h1>
-    </div>
+    </div> 
     <div class="d-none d-lg-block col-lg-4">
         <p class="secondary-text mb-0">
             The IT Industry Constantly Introduces New Technologies That Revolutionize
@@ -20,7 +20,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </a>
 </div>
 
-<div class="mb-3 job-hunt" data-aos="fade-right" data-aos-duration="600">
+<div class="mb-3 chandrayaan" data-aos="fade-right" data-aos-duration="600">
 <a href="./chandrayaan.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
@@ -40,7 +40,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </a>
 </div>
 
-<div class="mb-3 lucrative-it" data-aos="fade-left" data-aos-duration="600">
+<div class="mb-3 exploring_lucrative" data-aos="fade-left" data-aos-duration="600">
 <a href="exploring_lucrative.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
@@ -60,7 +60,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </a>
 </div>
 
-<div class="mb-3 time-to-apply" data-aos="fade-right" data-aos-duration="600">
+<div class="mb-3 resume" data-aos="fade-right" data-aos-duration="600">
 <a href="./resume.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
@@ -80,7 +80,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </a>
 </div>
 
-<div class="mb-3 change-carrer" data-aos="fade-left" data-aos-duration="600">
+<div class="mb-3 change_in_career" data-aos="fade-left" data-aos-duration="600">
 <a href="./change_in_career.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
@@ -100,7 +100,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </a>
 </div>
 
-<div class="mb-3 common-pitfall" data-aos="fade-right" data-aos-duration="600">
+<div class="mb-3 common_pitfalls" data-aos="fade-right" data-aos-duration="600">
 <a href="./common_pitfalls.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
@@ -120,7 +120,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </a>
 </div>
 
-<div class="mb-3 emp-opp" data-aos="fade-left" data-aos-duration="600">
+<div class="mb-3 employment_opportunity" data-aos="fade-left" data-aos-duration="600">
 <a href="./employment_opportunity.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
@@ -140,7 +140,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </a>
 </div>
 
-<div class="mb-3 job-market-2023" data-aos="fade-right" data-aos-duration="600">
+<div class="mb-3 job_market" data-aos="fade-right" data-aos-duration="600">
 <a href="./job_market.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
@@ -160,7 +160,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </a>
 </div>
 
-<div class="mb-3 job-race" data-aos="fade-left" data-aos-duration="600">
+<div class="mb-3 job_race" data-aos="fade-left" data-aos-duration="600">
 <a href="./job_race.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
@@ -180,7 +180,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </a>
 </div>
 
-<div class="mb-3 professional-exam" data-aos="fade-right" data-aos-duration="600">
+<div class="mb-3 professional_exam" data-aos="fade-right" data-aos-duration="600">
 <a href="./professional_exam.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
@@ -200,7 +200,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </a>
 </div>
 
-<div class="mb-3 job-interview" data-aos="fade-left" data-aos-duration="600">
+<div class="mb-3 first_itjob" data-aos="fade-left" data-aos-duration="600">
 <a href="first_itjob.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
@@ -220,7 +220,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </a>
 </div>
 
-<div class="mb-3 job-market" data-aos="fade-right" data-aos-duration="600">
+<div class="mb-3 dynamic_indian_job" data-aos="fade-right" data-aos-duration="600">
 <a href="dynamic_indian_job.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
@@ -240,7 +240,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </a>
 </div>
 
-<div class="mb-3 dynamic-it-job-market" data-aos="fade-left" data-aos-duration="600">
+<div class="mb-3 dynamics_of_it" data-aos="fade-left" data-aos-duration="600">
 <a href="./dynamics_of_it.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
@@ -260,7 +260,7 @@ var newblog = `<div class="mb-3 emer-tech" data-aos="fade-left" data-aos-duratio
 </a>
 </div>
 
-<div class="mb-3 intro-carrer" data-aos="fade-right" data-aos-duration="600">
+<div class="mb-3 tech_interviews" data-aos="fade-right" data-aos-duration="600">
 <a href="./tech_interviews.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
