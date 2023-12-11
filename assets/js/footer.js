@@ -109,8 +109,7 @@ $(document).ready(function () {
     link.rel = 'icon';
     link.href = './assets/imagesandvectors/vectors/logo.png'; 
     
-    if ($('.coursesList').length > 0) {
-      
+    if ($('.coursesList').length > 0) {      
         $('footer .courses-links a').attr('href', '../../courses.html');
         $('.copyright a').attr('href', '../../privacyPolicy.html');
              link.href = '../../assets/imagesandvectors/vectors/logo.png';
@@ -122,3 +121,4 @@ $(document).ready(function () {
         }
     document.head.appendChild(link);
 });
+

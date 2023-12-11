@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
                            <a title="Pay after Placement" class="nav-link" href="../../pay-after-placement.html">PAP</a>
                        </li>
                        <li class="nav-item">
-                           <a class="nav-link" href="../../Blog2.html">Blog</a>
+                           <a class="nav-link" href="../../blog.html">Blog</a>
                        </li>
                    </ul>
                </div>

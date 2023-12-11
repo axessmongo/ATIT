@@ -20,7 +20,12 @@ body,
     scroll-behavior: smooth;
 }
 
-a, a *, dotlottie-player, .atit-card-1 *, button , button * {
+a,
+a *,
+dotlottie-player,
+.atit-card-1 *,
+button,
+button * {
     cursor: pointer !important;
 }
 
@@ -99,16 +104,16 @@ img {
     letter-spacing: .5px;
 }
 
-.primary-mb {
-    margin-bottom: 100px;
-}
+
 
 .secondary-text {
     font-size: 15px;
     letter-spacing: .5px;
     color: var(--link-color);
 }
-
+.primary-mb {
+    margin-bottom: 100px;
+}
 .cursor {
     cursor: pointer;
 }
@@ -838,8 +843,10 @@ vertical-align: middle;
 }
 
 .btn.primary-btn:hover {
-    background-color: transparent !important; /* Set background color to transparent on hover */
-    color: #f7851d !important; /* Set text color to orange on hover */
+    background-color: transparent !important;
+    /* Set background color to transparent on hover */
+    color: #f7851d !important;
+    /* Set text color to orange on hover */
 }
 
 
@@ -1015,6 +1022,10 @@ vertical-align: middle;
     .whatwedo .card,
     .slidernew .card {
         align-items: start;
+    }
+
+    #map {
+        height: 300px !important;
     }
 }
 
@@ -1938,10 +1949,21 @@ input:-webkit-autofill:focus {
 }
 
 /* form------nivi ends */
-.individualBlogs .share #whatsapp-share:hover{
-   color: #00be07 !important
-   }
-   .individualBlogs .share #instagram-share:hover{
+.individualBlogs .share #whatsapp-share:hover {
+    color: #00be07 !important
+}
+.individualBlogs .left-blog a:hover{
+    background-color: rgb(244, 241, 241);
+}
+.individualBlogs .left-blog button:hover{
+    background-color: rgb(244, 241, 241);
+}
+.individualBlogs .recent-post a{
+    transition:  0.1s ease-in-out;
+}
+.individualBlogs .recent-post a:hover{
+    opacity: 0.7;
+}
+.individualBlogs .share #instagram-share:hover {
     color: #f2051c !important
-    }
-
+}

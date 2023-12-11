@@ -184,4 +184,4 @@ if (getCourseList == 1) {
     $('.course #pills-tab > div:nth-child(1) button.nav-link').addClass('active')
     $('.course .tab-content .tab-pane').removeClass('active')
     $('.course .tab-content .tab-pane:nth-child(1)').addClass('active')
-}
+} 
