@@ -41,19 +41,18 @@ $('#whatsapp-share').on('click', function (e) {
 
 
 
-// Construct the Instagram direct message URL
+
 var instagramLink = 'https://www.instagram.com/direct/t/?url=' + encodeURIComponent(currentURL);
 
-// Set the href attribute of the 'instagram-share' element
 $('#instagram-share').attr('href', instagramLink);
 
-// Attach a click event to the 'instagram-share' element
 $('#instagram-share').on('click', function (e) {
     e.preventDefault();
-    // Open a new window with the Instagram direct message URL
     window.open($(this).attr('href'), '_blank');
 });
-
+$(document).ready(function() {
+    $('#instagram-share').hide();
+});
 
 var facebookLink = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(currentURL);
 $('#facebook-share').attr('href', facebookLink);
