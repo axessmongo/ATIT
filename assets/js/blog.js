@@ -93,7 +93,8 @@
         </div>
         </a>
         <a href="./blog/dynamics_of_it.html" class="text-decoration-none blog-title blog-title">
-        Dynamics Of The IT Job Market And Fresh Graduates
+        Dynamics Of IT 
+        
         </a>
     </div>
     <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
