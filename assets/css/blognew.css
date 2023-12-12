@@ -58,9 +58,13 @@
     border-width: 3px 0px 3px 0px;
     padding: 10px 10px;
 }
+.primary-header{
+    font-size: 40px;
+    letter-spacing: .5px;
+}
 
 .secondary-text {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 25px;
     font-family: var(--fam2);
     font-weight: 500;
@@ -111,7 +115,7 @@ span.fl {
     width: auto;
     font-size: 400%;
     font-family: algerian, courier;
-    line-height: 80%;
+    line-height: 70%;
     margin: 0px 10px;
 }
 

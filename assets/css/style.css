@@ -1967,3 +1967,8 @@ input:-webkit-autofill:focus {
 .individualBlogs .share #instagram-share:hover {
     color: #f2051c !important
 }
+
+#contact .modal-dialog {
+    margin: unset;
+    margin-left: auto;
+}
