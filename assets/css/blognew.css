@@ -200,3 +200,6 @@ span.fl {
     padding: 0 25px;
   }
 }
+.secondary-header{
+    letter-spacing: unset !important;
+}
