@@ -290,7 +290,7 @@ appendedDivs.each(function (i) {
 
 var blogName = $('body').attr('blog-name');
 console.log(blogName);
-$('body[blog-name="' + blogName + '"] .' + blogName).hide();
+$('body[blog-name="' + blogName + '"] .' + blogName).remove();
 
 setTimeout(() => {
     $('.left-blog').removeAttr('data-aos').removeAttr('data-aos-duration');

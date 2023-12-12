@@ -190,6 +190,10 @@ span.fl {
   transform: translate(2px, 2px);
 }
 
+.recent-post>div:first-child .post {
+    border: none;
+}
+
 @media (min-width: 768px) {
   .button-74 {
     min-width: 120px;

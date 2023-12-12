@@ -1,750 +1,987 @@
 <!DOCTYPE html>
 <html lang="en" style="overflow: auto">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>change_in_career</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/scroll.css" />
+    <link rel="stylesheet" href="../assets/css/animation.css" />
+    <link rel="stylesheet" href="../assets/css/blognew.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- font -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>change_in_career</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
-  <link rel="stylesheet" href="../assets/css/style.css" />
-  <link rel="stylesheet" href="../assets/css/scroll.css" />
-  <link rel="stylesheet" href="../assets/css/animation.css" />
-  <link rel="stylesheet" href="../assets/css/blognew.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  <!-- font -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+  <body
+    class="overflow-x-hidden p-0 individualBlogs"
+    blog-name="change_in_career"
+  >
+    <!-- nav starts -->
 
-<body class="overflow-x-hidden p-0 individualBlogs" blog-name="">
-  <!-- nav starts -->
-
-  <div class="nav-holder d-lg-none">
-    <nav class="navbar navbar-expand-lg py-0 col-lg-10 mx-auto">
-      <div class="container-fluid p-0 d-flex align-items-start" data-aos="fade-down"
-        data-aos-anchor-placement="bottom-bottom" data-aos-duration="500">
-        <a class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white shadow1" href="../index.html">
-          <img src="../assets/imagesandvectors/vectors/atit_logo.png" alt="logo" />
-        </a>
-        <button class="navbar-toggler d-none shadow-none ms-auto" type="button" data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-          aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <button class="d-lg-none ms-auto ms-md-0 canvas-bar bg-primary border-0 p-3" type="button"
-          data-bs-toggle="offcanvas" data-bs-target="#navbar" aria-controls="navbar">
-          <i class="fa-solid fa-bars fa-xl text-white"></i>
-        </button>
-        <div class="collapse navbar-collapse position-relative" id="navbarSupportedContent">
-          <ul class="navbar-nav shadow1 ms-auto mb-0 bg-light overflow-hidden rounded-bottom-3">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="../courses.html">Courses</a>
-            </li>
-            <li class="nav-item">
-              <a title="Pay after Placement" class="nav-link" href="../pay-after-placement.html">PAP</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="../blog.html">Blog</a>
-            </li>
-          </ul>
+    <div class="nav-holder d-lg-none">
+      <nav class="navbar navbar-expand-lg py-0 col-lg-10 mx-auto">
+        <div
+          class="container-fluid p-0 d-flex align-items-start"
+          data-aos="fade-down"
+          data-aos-anchor-placement="bottom-bottom"
+          data-aos-duration="500"
+        >
+          <a
+            class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white shadow1"
+            href="../index.html"
+          >
+            <img
+              src="../assets/imagesandvectors/vectors/atit_logo.png"
+              alt="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler d-none shadow-none ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <button
+            class="d-lg-none ms-auto ms-md-0 canvas-bar bg-primary border-0 p-3"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#navbar"
+            aria-controls="navbar"
+          >
+            <i class="fa-solid fa-bars fa-xl text-white"></i>
+          </button>
+          <div
+            class="collapse navbar-collapse position-relative"
+            id="navbarSupportedContent"
+          >
+            <ul
+              class="navbar-nav shadow1 ms-auto mb-0 bg-light overflow-hidden rounded-bottom-3"
+            >
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../courses.html">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a
+                  title="Pay after Placement"
+                  class="nav-link"
+                  href="../pay-after-placement.html"
+                  >PAP</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../blog.html">Blog</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+    </div>
+
+    <!-- offcanvas navbar -->
+    <div
+      class="offcanvas offcanvas-start"
+      tabindex="-1"
+      id="navbar"
+      aria-labelledby="navbar"
+    >
+      <div class="offcanvas-header p-0 px-2">
+        <a
+          class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white"
+          href="../index.html"
+        >
+          <img
+            src="../assets/imagesandvectors/vectors/atit_logo.png"
+            alt="logo"
+          />
+        </a>
+        <button
+          type="button"
+          class="m-2 p-0 btn shadow-none border-0 text-danger me-0"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        >
+          <i class="fa-solid fa-xmark fa-xl"></i>
+        </button>
       </div>
-    </nav>
-  </div>
-
-  <!-- offcanvas navbar -->
-  <div class="offcanvas offcanvas-start" tabindex="-1" id="navbar" aria-labelledby="navbar">
-    <div class="offcanvas-header p-0 px-2">
-      <a class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white" href="../index.html">
-        <img src="../assets/imagesandvectors/vectors/atit_logo.png" alt="logo" />
-      </a>
-      <button type="button" class="m-2 p-0 btn shadow-none border-0 text-danger me-0" data-bs-dismiss="offcanvas"
-        aria-label="Close">
-        <i class="fa-solid fa-xmark fa-xl"></i>
-      </button>
-    </div>
-    <div class="offcanvas-body px-0 py-5 text-center">
-      <ul class="navbar-nav ms-auto overflow-hidden mb-0 rounded-bottom-3">
-        <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="../index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../contact.html">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../courses.html">Courses</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="../pay-after-placement.html">PAP</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="../blog.html">Blog</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- nav ends -->
-
-  <section class="blog-container overflow-hidden pt-5 mt-5 pt-lg-0 mt-lg-0">
-    <div class="row g-0">
-      <div class="left-blog col-lg-2 shadow1 ps-lg-3 z-3" data-aos="fade-right" data-aos-duration="700">
-        <ul class="nav flex-column">
-          <li class="nav-item py-4 d-none d-lg-block mb-xxl-5">
-            <a class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white" href="../index.html">
-              <img src="../assets/imagesandvectors/vectors/atit_logo.png" alt="logo" style="width: 70%; margin: auto" />
-            </a>
+      <div class="offcanvas-body px-0 py-5 text-center">
+        <ul class="navbar-nav ms-auto overflow-hidden mb-0 rounded-bottom-3">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html"
+              >Home</a
+            >
           </li>
-          <li class="nav-item blog-drop position-relative">
-            <button
-              class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">
-              IT Jobs <i class="bi bi-caret-down-fill trans"></i>
-            </button>
-            <ul class="blog-drop-menu list-unstyled">
-              <li class="nav-item">
-                <a class="blog-drop-item nav-link" href="./exploring_lucrative.html">Lucrative IT Job Opportunities</a>
-              </li>
-              <li class="nav-item">
-                <a class="blog-drop-item nav-link" href="./employment_opportunity.html">Employment Opportunities</a>
-              </li>
-              <li class="nav-item">
-                <a class="blog-drop-item nav-link" href="./job_race.html">Get Ahead Of The Job Race</a>
-              </li>
-              <li class="nav-item">
-                <a class="blog-drop-item nav-link" href="./first_itjob.html">Your First IT Job Interview</a>
-              </li>
-              <li class="nav-item">
-                <a class="blog-drop-item nav-link" href="./dynamics_of_it.html">Dynamics Of The IT Job
-                </a>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="../about.html">About</a>
           </li>
-          <li class="nav-item blog-drop position-relative">
-            <button
-              class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">
-              Interviews <i class="bi bi-caret-down-fill trans"></i>
-            </button>
-            <ul class="blog-drop-menu list-unstyled">
-              <li class="nav-item">
-                <a class="blog-drop-item nav-link" href="./common_pitfalls.html">Common Pitfalls In Interviews</a>
-              </li>
-              <li class="nav-item">
-                <a class="blog-drop-item nav-link" href="./resume.html">Polishing Up Your Resume</a>
-              </li>
-              <li class="nav-item">
-                <a class="blog-drop-item nav-link" href="./job_market.html">The Job Market In 2023</a>
-              </li>
-              <li class="nav-item">
-                <a class="blog-drop-item nav-link" href="./dynamic_indian_job.html">Dynamic Indian Job Market</a>
-              </li>
-              <li class="nav-item">
-                <a class="blog-drop-item nav-link" href="./tech_interviews.html">Clear Technical Interviews</a>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="../contact.html">Contact</a>
           </li>
-          <li class="nav-item blog-drop position-relative">
-            <button
-              class="nav-link blog-drop-toggle w-100 active text-start d-flex justify-content-between align-items-center">
-              Tech-Skills <i class="bi bi-caret-down-fill trans"></i>
-            </button>
-            <ul class="blog-drop-menu list-unstyled">
-              <li class="nav-item">
-                <a class="blog-drop-item nav-link" href="./emerging_tech.html">Emerging Technologies</a>
-              </li>
-              <li class="nav-item ">
-                <a class="blog-drop-item nav-link active" href="./change_in_career.html">Change In Career</a>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="../courses.html">Courses</a>
           </li>
-          <li class="nav-item blog-drop position-relative">
-            <button
-              class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center">
-              Others <i class="bi bi-caret-down-fill trans"></i>
-            </button>
-            <ul class="blog-drop-menu list-unstyled">
-              <li class="nav-item">
-                <a class="blog-drop-item nav-link" href="./chandrayaan.html">Job-Hunting Chandrayaan 3</a>
-              </li>
-              <li class="nav-item">
-                <a class="blog-drop-item nav-link" href="./professional_exam.html">Clear Any Professional Exam</a>
-              </li>
-            </ul>
+          <li class="nav-item">
+            <a class="nav-link" href="../pay-after-placement.html">PAP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../blog.html">Blog</a>
           </li>
         </ul>
       </div>
-      <div class="right-blog col-lg-8 col-xxl-7 my-3">
-        <div class="p-3">
-          <div data-aos="fade-down" data-aos-duration="700"
-            class="blog-top d-flex align-items-center justify-content-between flex-wrap flex-column flex-lg-row">
-            <div>
-              <p class="m-0 text-1 fs-6 fw-medium primary-color">
-                change_in_career
+    </div>
+
+    <!-- nav ends -->
+
+    <section class="blog-container overflow-hidden pt-5 mt-5 pt-lg-0 mt-lg-0">
+      <div class="row g-0">
+        <div
+          class="left-blog col-lg-2 shadow1 ps-lg-3 z-3"
+          data-aos="fade-right"
+          data-aos-duration="700"
+        >
+          <ul class="nav flex-column">
+            <li class="nav-item py-4 d-none d-lg-block mb-xxl-5">
+              <a
+                class="navbar-brand fw-semibold fs-4 rounded-bottom-3 text-white"
+                href="../index.html"
+              >
+                <img
+                  src="../assets/imagesandvectors/vectors/atit_logo.png"
+                  alt="logo"
+                  style="width: 70%; margin: auto"
+                />
+              </a>
+            </li>
+            <li class="nav-item blog-drop position-relative">
+              <button
+                class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center"
+              >
+                IT jobs <i class="bi bi-caret-down-fill trans"></i>
+              </button>
+              <ul class="blog-drop-menu list-unstyled">
+                <li class="nav-item">
+                  <a
+                    class="blog-drop-item nav-link"
+                    href="./exploring_lucrative.html"
+                    >Lucrative IT Job Opportunities</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="blog-drop-item nav-link"
+                    href="./employment_opportunity.html"
+                    >Employment Opportunities</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="blog-drop-item nav-link" href="./job_race.html"
+                    >Get Ahead Of The Job Race</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="blog-drop-item nav-link" href="./first_itjob.html"
+                    >Your First IT Job Interview</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="blog-drop-item nav-link"
+                    href="./dynamics_of_it.html"
+                    >Dynamics Of The IT Job
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item blog-drop position-relative">
+              <button
+                class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center"
+              >
+                Interviews <i class="bi bi-caret-down-fill trans"></i>
+              </button>
+              <ul class="blog-drop-menu list-unstyled">
+                <li class="nav-item">
+                  <a
+                    class="blog-drop-item nav-link"
+                    href="./common_pitfalls.html"
+                    >Common Pitfalls In Interviews</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="blog-drop-item nav-link" href="./resume.html"
+                    >Polishing Up Your Resume</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="blog-drop-item nav-link" href="./job_market.html"
+                    >The Job Market In 2023</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="blog-drop-item nav-link"
+                    href="./dynamic_indian_job.html"
+                    >Dynamic Indian Job Market</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="blog-drop-item nav-link"
+                    href="./tech_interviews.html"
+                    >Clear Technical Interviews</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item blog-drop position-relative">
+              <button
+                class="nav-link blog-drop-toggle w-100 active text-start d-flex justify-content-between align-items-center"
+              >
+                Tech-Skills <i class="bi bi-caret-down-fill trans"></i>
+              </button>
+              <ul class="blog-drop-menu list-unstyled">
+                <li class="nav-item">
+                  <a class="blog-drop-item nav-link" href="./emerging_tech.html"
+                    >Emerging Technologies</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="blog-drop-item nav-link active"
+                    href="./change_in_career.html"
+                    >Change In Career</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item blog-drop position-relative">
+              <button
+                class="nav-link blog-drop-toggle w-100 text-start d-flex justify-content-between align-items-center"
+              >
+                Others <i class="bi bi-caret-down-fill trans"></i>
+              </button>
+              <ul class="blog-drop-menu list-unstyled">
+                <li class="nav-item">
+                  <a class="blog-drop-item nav-link" href="./chandrayaan.html"
+                    >Job-Hunting Chandrayaan 3</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="blog-drop-item nav-link"
+                    href="./professional_exam.html"
+                    >Clear Any Professional Exam</a
+                  >
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="right-blog col-lg-8 col-xxl-7 my-3">
+          <div class="p-3">
+            <div
+              data-aos="fade-down"
+              data-aos-duration="700"
+              class="blog-top d-flex align-items-center justify-content-between flex-wrap flex-column flex-lg-row"
+            >
+              <div>
+                <p class="m-0 text-1 fs-6 fw-medium primary-color">
+                  change_in_career
+                </p>
+              </div>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                  <li class="breadcrumb-item">
+                    <a href="../blog.html">Blogs</a>
+                  </li>
+                  <li class="breadcrumb-item active" aria-current="page">
+                    Tech-Skills
+                  </li>
+                </ol>
+              </nav>
+              <div class="d-none d-lg-block">
+                <a href="../index.html" class="text-dark">Home</a>
+              </div>
+            </div>
+
+            <div class="container my-5 overflow-hidden">
+              <img
+                src="../assets/img/Blog/Blog1.jpg"
+                class="mb-3"
+                alt="Emerging technological"
+                data-aos="zoom-in"
+                data-aos-duration="500"
+              />
+              <p class="secondary-text mb-5" data-aos="fade-up" data-aos-duration="600">
+                <span class="fl">W</span>hether You Are A Fresh Graduate Or An
+                Experienced Professional Seeking A Change In Career, This
+                Article Outlines The Essential Tips To Help You Break Into The
+                IT Industry Successfully
               </p>
-            </div>
-            <nav aria-label="breadcrumb">
-              <ol class="breadcrumb mb-0">
-                <li class="breadcrumb-item">
-                  <a href="../blog.html">Blogs</a>
-                </li>
-                <li class="breadcrumb-item active" aria-current="page">
-                  Tech-Skills
-                </li>
-              </ol>
-            </nav>
-            <div class="d-none d-lg-block">
-              <a href="../index.html" class="text-dark">Home</a>
-            </div>
-          </div>
-          <div class="container my-5 overflow-hidden">
-            <img src="../assets/img/Blog/Blog1.jpg" class="mb-3" alt="Emerging technological" data-aos="zoom-in"
-              data-aos-duration="500" />
-            <p class="secondary-text mb-5" data-aos="fade-up" data-aos-duration="600">
-              <span class="fl">W</span>hether You Are A Fresh Graduate Or An
-              Experienced Professional Seeking A Change In Career, This
-              Article Outlines The Essential Tips To Help You Break Into The
-              IT Industry Successfully
-            </p>
-
-            <div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-header text-center mb-3">
-                  Understanding The IT Industry
-                </h2>
-              <p class="secondary-text">
-                  Before Diving Into The Job Search, It's Crucial To
-                  Understand The IT Industry's Ins And Outs. Here Are Some
-                  Topics You Must Delve Into:</p>
-                
-                <h2 class="secondary-header mb-3">
-                  Understanding The Different Domains In The IT Industry
-                </h2>
-                <p class="secondary-text">
-                  The IT Industry Comprises Various Domains, Such As Software
-                  Development, Data Analytics, Cloud Computing, Cybersecurity,
-                  And Artificial Intelligence. Knowing The Different Domains
-                  Will Enlighten You About The Roles And Job Opportunities In
-                  The Industry
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="secondary-header">
-                  Knowing The Latest Technologies And Tools
-                </h2>
-                <p class="secondary-text">
-                  The IT Industry Advances At A Breakneck Pace, With New
-                  Technologies And Tools Being Introduced Frequently. To Break
-                  Into The Industry, You Must Keep Yourself Updated With The
-                  Latest Trends, Know The In-Demand Technologies And Tools,
-                  And Understand How They Work.
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="secondary-header">
-                  Familiarising With The IT Development Life Cycle
-                </h2>
-                <p class="secondary-text">
-                  The IT Development Life Cycle (SDLC) Is A Framework For
-                  Developing Software Applications That Encompasses Different
-                  Stages From Planning To Deployment. Understanding The
-                  Different Stages And How They Relate To Each Other Is
-                  Crucial, As It's The Foundation Of The Software Development
-                  Process.
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="secondary-header">
-                  Understanding The Different Roles And Responsibilities In
-                  The IT Industry
-                </h2>
-                <p class="secondary-text">
-                  The IT Industry Encompasses Different Roles And
-                  Responsibilities, Such As Software Developer, System
-                  Administrator, Project Manager, And Quality Assurance
-                  Engineer. Knowing The Specific Roles And Their Requirements
-                  Will Help You Choose Your Career Path And Work Towards
-                  Acquiring The Relevant Skills
-                </p>
-              </div>
-            </div>
-
-            <div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="secondary-header mb-3">
-                  Acquire The Relevant Qualifications And Skills
-                </h2>
-              <p class="secondary-text">
-                  Having The Right Qualifications And Skills Is Vital To Break
-                  Into The IT Industry. Here Are Some Skills That Can Set You
-                  Apart From Other Job Seekers:</p>
-                
-                <h2 class="secondary-header mb-3">
-                  Having Relevant Programming Skills
-                </h2>
-                <p class="secondary-text">
-                  Programming Is The Primary Skill Required In The IT
-                  Industry. By Mastering Programming Languages Such As Java,
-                  Python, Or C++, You Can Enhance Your Employability
-                  Prospects.
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-text">
-                  Familiarity With Coding Languages
-                </h2>
-                <p class="secondary-text">
-                  Familiarizing Yourself With Various Coding Languages Will
-                  Enable You To Specialise In A Specific Domain, Such As Web
-                  Development, Data Analytics, Or Mobile App Development.
-                  Moreover, It's Essential To Keep Yourself Updated With The
-                  Latest Coding Trends.
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-text">
-                  Good Communication And Interpersonal Skills
-                </h2>
-                <p class="secondary-text">
-                  Working In The IT Industry Requires Constant Communication
-                  And Collaboration With Team Members And Clients. Having
-                  Excellent Communication And Interpersonal Skills Will Enable
-                  You To Convey Your Ideas Effectively And Work Well In Team
-                  Environments
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-text">
-                  Ability To Learn Quickly And Adapt To New Technologies
-                </h2>
-                <p class="secondary-text">
-                  The IT Industry Is Dynamic, And New Technologies Emerge
-                  Continually. You Must Have The Ability To Learn New
-                  Technologies And Adapt To Rapidly Changing Work Environments
-                </p>
-              </div>
-            </div>
-
-            <div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="secondary-header mb-3">
-                  Showcasing The Relevant Work Experience
-                </h2>
-             <p class="secondary-text">
-                  Work Experience And Relevant Projects Play A Vital Role In
-                  Landing A Job In The IT Industry. Here Are Some Tips To
-                  Showcase Your Work Experience:</p>
-             
-                <h2 class="primary-text mb-3">
-                  Emphasizing The Different Projects Worked On
-                </h2>
-                <p class="secondary-text">
-                  Highlight Your Previous Work Experience And The Projects You
-                  Have Worked On, Detailing Your Roles And Responsibilities.
-                  This Conveys To Potential Employers That You Have Experience
-                  In The Industry And Can Handle Challenging Tasks.
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-text">
-                  Demonstrate Team Collaboration And Problem-Solving Skills
-                </h2>
-                <p class="secondary-text">
-                  Working In The IT Industry Involves Teamwork, Collaboration,
-                  And Problem-Solving Skills. Detailing Your Experience
-                  Working In Teams And Handling Tricky Problems Will Set You
-                  Apart From Other Job Seekers.
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-text">
-                  Display Relevant Certifications Or Awards Won
-                </h2>
-                <p class="secondary-text">
-                  WDisplaying Certifications And Awards That Highlight Your
-                  Expertise In A Specific Domain Will Reinforce Your Portfolio
-                  And Attract Potential Employers
-                </p>
-              </div>
-            </div>
-
-            <div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="secondary-header mb-3">
-                  Building A Strong Professional Network
-                </h2>
-                <p class="secondary-text">
-                  Crafting A Compelling Resume And Cover Letter Is Essential
-                  To Attract Potential Employers. Here Are Some Aspects To
-                  Keep In Mind While Building Your Resume And Cover Letter:
-                </p>
-                <h2 class="primary-text mb-3">
-                  Highlighting Relevant Skills
-                </h2>
-                <p class="secondary-text">
-                  Highlighting The Skills You Have Acquired That Are Relevant
-                  To The Job You Are Applying For Will Help You Stand Out From
-                  Other Candidates
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-text">Using Action Verbs</h2>
-                <p class="secondary-text">
-                  Using Active Verbs Like "Implemented," "Developed," And
-                  "Designed" Will Convey Your Skills And Experience More
-                  Effectively.
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-text">
-                  Including Quantifiable Accomplishments
-                </h2>
-                <p class="secondary-text">
-                  Incorporating Quantifiable Achievements Such As "Led A Team
-                  Of 5 Developers To Complete A Project On Time" Will
-                  Reinforce Your Abilities And Accomplishments.
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-text">
-                  Customising The Resume For Each Job Application
-                </h2>
-                <p class="secondary-text">
-                  Customising Your Resume And Cover Letter To Reflect The Job
-                  Requirements Will Make You A More Suitable Candidate For The
-                  Position
-                </p>
-              </div>
-            </div>
-
-            <div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="secondary-header mb-3">
-                  Preparing For The Interview
-                </h2>
-                <p class="secondary-text">
-                  A Job Interview Can Be Nerve-Racking, But Adequate
-                  Preparation Can Set You Apart From Other Candidates. Here
-                  Are Some Points To Keep In Mind While Preparing For The
-                  Interview:
-                </p>
-                <h2 class="primary-text mb-3">
-                  Researching The Company
-                </h2>
-                <p class="secondary-text">
-                  Researching The Potential Employer's Background, Mission,
-                  And Culture Will Enable You To Understand The Company Better
-                  And Prepare Suitable Answers For The Interview Questions.
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-text">
-                  Preparing Answers To Common Interview Questions
-                </h2>
-                <p class="secondary-text">
-                  Preparing Answers To Common Interview Questions Such As
-                  "What Are Your Strengths And Weaknesses?" And "Why Should We
-                  Hire You?" Will Help You Appear Confident And Well-Prepared.
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-text">
-                  Displaying Professional Body Language
-                </h2>
-                <p class="secondary-text">
-                  Displaying Professional Body Language, Smiling, And Making
-                  Eye Contact Will Communicate Your Interest Effectively And
-                  Convey Your Confidence.
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-text">Asking Intelligent Questions</h2>
-                <p class="secondary-text">
-                  Asking Intelligent Questions About The Company's Culture,
-                  Work Environment, And Projects Will Show Your Interest And
-                  Engagement In The Potential Role.
-                </p>
-              </div>
-            </div>
-
-            <div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="secondary-header mb-3">
-                  Landing The Job
-                </h2>
-                <p class="secondary-text">
-                  Landing Your Dream Job In The IT Industry Takes Hard Work
-                  And Dedication. Here Are Some Tips To Succeed In The IT
-                  Industry:
-                </p>
-                <h2 class="primary-text ">
-                  Take Up Challenging Tasks
-                </h2>
-                <p class="secondary-text">
-                  Taking On Challenging Tasks And Projects Will Enable You To
-                  Develop Your Skills And Gain Experience.
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-text">
-                  Stay Updated With The Latest Technologies And Trends
-                </h2>
-                <p class="secondary-text">
-                  Constantly Learning And Keeping Yourself Updated With The
-                  Latest Technologies And Trends Will Help You Stay Relevant
-                  In The Industry.
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-text">
-                  Seek Ongoing Learning Opportunities
-                </h2>
-                <p class="secondary-text">
-                  Seeking Learning Opportunities Such As Online Courses,
-                  Workshops, And Certifications Will Help You Enhance Your
-                  Skills And Knowledge.
-                </p>
-              </div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-text">
-                  Customising The Resume For Each Job Application
-                </h2>
-                <p class="secondary-text">
-                  Customising Your Resume And Cover Letter To Reflect The Job
-                  Requirements Will Make You A More Suitable Candidate For The
-                  Position
-                </p>
-              </div>
-            </div>
-
-            <div>
-              <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                <h2 class="primary-header mb-3">FAQs</h2>
-
+              <!-- content start-->
+              <div>
                 <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
-                  <h2 class="primary-text">
-                    What Is The Average Starting Salary In The IT Industry?
+                  <h2 class="primary-header text-center mb-3">
+                    Understanding The IT Industry
+                  </h2>
+                <p class="secondary-text">
+                    Before Diving Into The Job Search, It's Crucial To
+                    Understand The IT Industry's Ins And Outs. Here Are Some
+                    Topics You Must Delve Into:</p>
+                  
+                  <h2 class="secondary-header mb-3">
+                    Understanding The Different Domains In The IT Industry
                   </h2>
                   <p class="secondary-text">
-                    The Average Salary For A Person Working In Information
-                    Technology In India Is Around 32,100 INR Per Month..
-                    However, Salaries Can Vary Depending On The Specific Job
-                    And Location
+                    The IT Industry Comprises Various Domains, Such As Software
+                    Development, Data Analytics, Cloud Computing, Cybersecurity,
+                    And Artificial Intelligence. Knowing The Different Domains
+                    Will Enlighten You About The Roles And Job Opportunities In
+                    The Industry
                   </p>
                 </div>
                 <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
                   <h2 class="secondary-header">
-                    Which Coding Languages Should One Learn To Enter The IT
-                    Industry?
+                    Knowing The Latest Technologies And Tools
                   </h2>
                   <p class="secondary-text">
-                    There Are Many Programming Languages That Are Used In The
-                    IT Industry In India. Some Of The Most Popular Ones
-                    Include Java, Python, C++, JavaScript, And SQL. However,
-                    The Specific Languages You Should Learn May Depend On The
-                    Specific Job You’re Interested In.
+                    The IT Industry Advances At A Breakneck Pace, With New
+                    Technologies And Tools Being Introduced Frequently. To Break
+                    Into The Industry, You Must Keep Yourself Updated With The
+                    Latest Trends, Know The In-Demand Technologies And Tools,
+                    And Understand How They Work.
                   </p>
                 </div>
-              </div>
-
-              <div class="blog-mid-content row my-5 py-lg-5">
-                <div class="col-lg-8" data-aos="fade-right" data-aos-duration="600">
-                  <h1 class="blog-mid-header text-lg-start">
-                    Conclusion
-                  </h1>
-                </div>
-                <div class="col-lg-4 d-flex flex-wrap justify-content-evenly" data-aos="fade-left"
-                  data-aos-duration="600">
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="secondary-header">
+                    Familiarising With The IT Development Life Cycle
+                  </h2>
                   <p class="secondary-text">
-                    As Technology Continues To Advance At A Rapid Pace,
-                    Programming Languages Play A Vital Role In Shaping The IT
-                    Landscape. Here Are Some Programming Languages That Will
-                    Be In High Demand In 2024
+                    The IT Development Life Cycle (SDLC) Is A Framework For
+                    Developing Software Applications That Encompasses Different
+                    Stages From Planning To Deployment. Understanding The
+                    Different Stages And How They Relate To Each Other Is
+                    Crucial, As It's The Foundation Of The Software Development
+                    Process.
+                  </p>
+                </div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="secondary-header">
+                    Understanding The Different Roles And Responsibilities In
+                    The IT Industry
+                  </h2>
+                  <p class="secondary-text">
+                    The IT Industry Encompasses Different Roles And
+                    Responsibilities, Such As Software Developer, System
+                    Administrator, Project Manager, And Quality Assurance
+                    Engineer. Knowing The Specific Roles And Their Requirements
+                    Will Help You Choose Your Career Path And Work Towards
+                    Acquiring The Relevant Skills
                   </p>
                 </div>
               </div>
+  
+              <div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="secondary-header mb-3">
+                    Acquire The Relevant Qualifications And Skills
+                  </h2>
+                <p class="secondary-text">
+                    Having The Right Qualifications And Skills Is Vital To Break
+                    Into The IT Industry. Here Are Some Skills That Can Set You
+                    Apart From Other Job Seekers:</p>
+                  
+                  <h2 class="secondary-header mb-3">
+                    Having Relevant Programming Skills
+                  </h2>
+                  <p class="secondary-text">
+                    Programming Is The Primary Skill Required In The IT
+                    Industry. By Mastering Programming Languages Such As Java,
+                    Python, Or C++, You Can Enhance Your Employability
+                    Prospects.
+                  </p>
+                </div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="primary-text">
+                    Familiarity With Coding Languages
+                  </h2>
+                  <p class="secondary-text">
+                    Familiarizing Yourself With Various Coding Languages Will
+                    Enable You To Specialise In A Specific Domain, Such As Web
+                    Development, Data Analytics, Or Mobile App Development.
+                    Moreover, It's Essential To Keep Yourself Updated With The
+                    Latest Coding Trends.
+                  </p>
+                </div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="primary-text">
+                    Good Communication And Interpersonal Skills
+                  </h2>
+                  <p class="secondary-text">
+                    Working In The IT Industry Requires Constant Communication
+                    And Collaboration With Team Members And Clients. Having
+                    Excellent Communication And Interpersonal Skills Will Enable
+                    You To Convey Your Ideas Effectively And Work Well In Team
+                    Environments
+                  </p>
+                </div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="primary-text">
+                    Ability To Learn Quickly And Adapt To New Technologies
+                  </h2>
+                  <p class="secondary-text">
+                    The IT Industry Is Dynamic, And New Technologies Emerge
+                    Continually. You Must Have The Ability To Learn New
+                    Technologies And Adapt To Rapidly Changing Work Environments
+                  </p>
+                </div>
+              </div>
+  
+              <div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="secondary-header mb-3">
+                    Showcasing The Relevant Work Experience
+                  </h2>
+               <p class="secondary-text">
+                    Work Experience And Relevant Projects Play A Vital Role In
+                    Landing A Job In The IT Industry. Here Are Some Tips To
+                    Showcase Your Work Experience:</p>
+               
+                  <h2 class="primary-text mb-3">
+                    Emphasizing The Different Projects Worked On
+                  </h2>
+                  <p class="secondary-text">
+                    Highlight Your Previous Work Experience And The Projects You
+                    Have Worked On, Detailing Your Roles And Responsibilities.
+                    This Conveys To Potential Employers That You Have Experience
+                    In The Industry And Can Handle Challenging Tasks.
+                  </p>
+                </div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="primary-text">
+                    Demonstrate Team Collaboration And Problem-Solving Skills
+                  </h2>
+                  <p class="secondary-text">
+                    Working In The IT Industry Involves Teamwork, Collaboration,
+                    And Problem-Solving Skills. Detailing Your Experience
+                    Working In Teams And Handling Tricky Problems Will Set You
+                    Apart From Other Job Seekers.
+                  </p>
+                </div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="primary-text">
+                    Display Relevant Certifications Or Awards Won
+                  </h2>
+                  <p class="secondary-text">
+                    WDisplaying Certifications And Awards That Highlight Your
+                    Expertise In A Specific Domain Will Reinforce Your Portfolio
+                    And Attract Potential Employers
+                  </p>
+                </div>
+              </div>
+  
+              <div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="secondary-header mb-3">
+                    Building A Strong Professional Network
+                  </h2>
+                  <p class="secondary-text">
+                    Crafting A Compelling Resume And Cover Letter Is Essential
+                    To Attract Potential Employers. Here Are Some Aspects To
+                    Keep In Mind While Building Your Resume And Cover Letter:
+                  </p>
+                  <h2 class="primary-text mb-3">
+                    Highlighting Relevant Skills
+                  </h2>
+                  <p class="secondary-text">
+                    Highlighting The Skills You Have Acquired That Are Relevant
+                    To The Job You Are Applying For Will Help You Stand Out From
+                    Other Candidates
+                  </p>
+                </div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="primary-text">Using Action Verbs</h2>
+                  <p class="secondary-text">
+                    Using Active Verbs Like "Implemented," "Developed," And
+                    "Designed" Will Convey Your Skills And Experience More
+                    Effectively.
+                  </p>
+                </div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="primary-text">
+                    Including Quantifiable Accomplishments
+                  </h2>
+                  <p class="secondary-text">
+                    Incorporating Quantifiable Achievements Such As "Led A Team
+                    Of 5 Developers To Complete A Project On Time" Will
+                    Reinforce Your Abilities And Accomplishments.
+                  </p>
+                </div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="primary-text">
+                    Customising The Resume For Each Job Application
+                  </h2>
+                  <p class="secondary-text">
+                    Customising Your Resume And Cover Letter To Reflect The Job
+                    Requirements Will Make You A More Suitable Candidate For The
+                    Position
+                  </p>
+                </div>
+              </div>
+  
+              <div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="secondary-header mb-3">
+                    Preparing For The Interview
+                  </h2>
+                  <p class="secondary-text">
+                    A Job Interview Can Be Nerve-Racking, But Adequate
+                    Preparation Can Set You Apart From Other Candidates. Here
+                    Are Some Points To Keep In Mind While Preparing For The
+                    Interview:
+                  </p>
+                  <h2 class="primary-text mb-3">
+                    Researching The Company
+                  </h2>
+                  <p class="secondary-text">
+                    Researching The Potential Employer's Background, Mission,
+                    And Culture Will Enable You To Understand The Company Better
+                    And Prepare Suitable Answers For The Interview Questions.
+                  </p>
+                </div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="primary-text">
+                    Preparing Answers To Common Interview Questions
+                  </h2>
+                  <p class="secondary-text">
+                    Preparing Answers To Common Interview Questions Such As
+                    "What Are Your Strengths And Weaknesses?" And "Why Should We
+                    Hire You?" Will Help You Appear Confident And Well-Prepared.
+                  </p>
+                </div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="primary-text">
+                    Displaying Professional Body Language
+                  </h2>
+                  <p class="secondary-text">
+                    Displaying Professional Body Language, Smiling, And Making
+                    Eye Contact Will Communicate Your Interest Effectively And
+                    Convey Your Confidence.
+                  </p>
+                </div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="primary-text">Asking Intelligent Questions</h2>
+                  <p class="secondary-text">
+                    Asking Intelligent Questions About The Company's Culture,
+                    Work Environment, And Projects Will Show Your Interest And
+                    Engagement In The Potential Role.
+                  </p>
+                </div>
+              </div>
+  
+              <div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="secondary-header mb-3">
+                    Landing The Job
+                  </h2>
+                  <p class="secondary-text">
+                    Landing Your Dream Job In The IT Industry Takes Hard Work
+                    And Dedication. Here Are Some Tips To Succeed In The IT
+                    Industry:
+                  </p>
+                  <h2 class="primary-text ">
+                    Take Up Challenging Tasks
+                  </h2>
+                  <p class="secondary-text">
+                    Taking On Challenging Tasks And Projects Will Enable You To
+                    Develop Your Skills And Gain Experience.
+                  </p>
+                </div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="primary-text">
+                    Stay Updated With The Latest Technologies And Trends
+                  </h2>
+                  <p class="secondary-text">
+                    Constantly Learning And Keeping Yourself Updated With The
+                    Latest Technologies And Trends Will Help You Stay Relevant
+                    In The Industry.
+                  </p>
+                </div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="primary-text">
+                    Seek Ongoing Learning Opportunities
+                  </h2>
+                  <p class="secondary-text">
+                    Seeking Learning Opportunities Such As Online Courses,
+                    Workshops, And Certifications Will Help You Enhance Your
+                    Skills And Knowledge.
+                  </p>
+                </div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="primary-text">
+                    Customising The Resume For Each Job Application
+                  </h2>
+                  <p class="secondary-text">
+                    Customising Your Resume And Cover Letter To Reflect The Job
+                    Requirements Will Make You A More Suitable Candidate For The
+                    Position
+                  </p>
+                </div>
+              </div>
+  
+              <div>
+                <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                  <h2 class="primary-header mb-3">FAQs</h2>
+  
+                  <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                    <h2 class="primary-text">
+                      What Is The Average Starting Salary In The IT Industry?
+                    </h2>
+                    <p class="secondary-text">
+                      The Average Salary For A Person Working In Information
+                      Technology In India Is Around 32,100 INR Per Month..
+                      However, Salaries Can Vary Depending On The Specific Job
+                      And Location
+                    </p>
+                  </div>
+                  <div class="mb-3" data-aos="fade-up" data-aos-duration="600">
+                    <h2 class="secondary-header">
+                      Which Coding Languages Should One Learn To Enter The IT
+                      Industry?
+                    </h2>
+                    <p class="secondary-text">
+                      There Are Many Programming Languages That Are Used In The
+                      IT Industry In India. Some Of The Most Popular Ones
+                      Include Java, Python, C++, JavaScript, And SQL. However,
+                      The Specific Languages You Should Learn May Depend On The
+                      Specific Job You’re Interested In.
+                    </p>
+                  </div>
+                </div>
+              <!-- content end--- -->
+
+              
+
+              
 
               <!-- <div class="d-flex justify-content-center mb-5" data-aos="fade-up" data-aos-duration="600">
                             <button class="button-74" role="button" data-bs-toggle="modal" data-bs-target="#share">Share
                                 this post</button>
                         </div> -->
+   <!-- share blog-----------------------     -->
 
+   <div id="share-blog" class=""></div>
               <div class="recent-post"></div>
             </div>
           </div>
         </div>
+        <div class="ad-blog"></div>
       </div>
+    </section>
 
-      <div class="ad-blog"></div>
+    <!-- ======= Footer ======= -->
+
+    <div id="footerElement"></div>
+
+    <!-- End Footer -->
+
+    <div id="rocket-container" class="cursor" data-aos="zoom-in">
+      <dotlottie-player
+        src="https://lottie.host/a3930b1d-eaf8-4fc4-a6b4-7ba7c5654523/tqWYmbEE3y.json"
+        background="transparent"
+        speed="1"
+        id="rocket"
+        loop
+        autoplay
+      ></dotlottie-player>
     </div>
-  </section>
 
-  <!-- ======= Footer ======= -->
-
-  <div id="footerElement"></div>
-
-  <!-- End Footer -->
-
-  <div id="rocket-container" class="cursor" data-aos="zoom-in">
-    <dotlottie-player src="https://lottie.host/a3930b1d-eaf8-4fc4-a6b4-7ba7c5654523/tqWYmbEE3y.json"
-      background="transparent" speed="1" id="rocket" loop autoplay></dotlottie-player>
-  </div>
-
-  <div
-    class="position-fixed z-3 bottom-0 d-flex align-items-center flex-column justify-content-center overflow-visible">
-    <div class="h-250px">
-      <div class="bell d-none overflow-visible position-relative" data-aos="fade-right" data-aos-duration="1000">
-        <dotlottie-player src="https://lottie.host/7eea6db9-f536-4f25-9f36-55e284faf207/afUTIVqW70.json"
-          background="transparent" speed="1" style="width: 90px" loop autoplay></dotlottie-player>
-        <span class="position-absolute top-0 start-50 d-none translate-middle badge rounded-pill bg-danger">
-          New
-        </span>
-        <div class="cloud">
-          <a href="../pay-after-placement.html"
-            class="shadow1 cloud-text primary-text py-3 py-1 rounded-3 text-decoration-none d-block text-light">
-            Pay After Placement
-            <i class="fa-solid fa-caret-left"></i>
-          </a>
+    <div
+      class="position-fixed z-3 bottom-0 d-flex align-items-center flex-column justify-content-center overflow-visible"
+    >
+      <div class="h-250px">
+        <div
+          class="bell d-none overflow-visible position-relative"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
+          <dotlottie-player
+            src="https://lottie.host/7eea6db9-f536-4f25-9f36-55e284faf207/afUTIVqW70.json"
+            background="transparent"
+            speed="1"
+            style="width: 90px"
+            loop
+            autoplay
+          ></dotlottie-player>
+          <span
+            class="position-absolute top-0 start-50 d-none translate-middle badge rounded-pill bg-danger"
+          >
+            New
+          </span>
+          <div class="cloud">
+            <a
+              href="../pay-after-placement.html"
+              class="shadow1 cloud-text primary-text py-3 py-1 rounded-3 text-decoration-none d-block text-light"
+            >
+              Pay After Placement
+              <i class="fa-solid fa-caret-left"></i>
+            </a>
+          </div>
+        </div>
+        <a
+          href="../pay-after-placement.html"
+          class="popup pop-ani text-decoration-none"
+        >
+          <span>P</span>
+          <span>a</span>
+          <span>y</span>
+          <span> </span>
+          <span>A</span>
+          <span>f</span>
+          <span>t</span>
+          <span>e</span>
+          <span>r</span>
+          <span> </span>
+          <span>P</span>
+          <span>l</span>
+          <span>a</span>
+          <span>c</span>
+          <span>e</span>
+          <span>m</span>
+          <span>e</span>
+          <span>n</span>
+          <span>t</span>
+        </a>
+        <div
+          class="overflow-visible class-ico"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+          data-bs-toggle="modal"
+          data-bs-target="#contact"
+        >
+          <dotlottie-player
+            title="contact"
+            src="https://lottie.host/a335969b-c315-4035-be6b-d18bed4b5831/l73y30ZFSl.json"
+            background="transparent"
+            speed="1"
+            style="width: 80px"
+            loop
+            autoplay
+          ></dotlottie-player>
         </div>
       </div>
-      <a href="../pay-after-placement.html" class="popup pop-ani text-decoration-none">
-        <span>P</span>
-        <span>a</span>
-        <span>y</span>
-        <span> </span>
-        <span>A</span>
-        <span>f</span>
-        <span>t</span>
-        <span>e</span>
-        <span>r</span>
-        <span> </span>
-        <span>P</span>
-        <span>l</span>
-        <span>a</span>
-        <span>c</span>
-        <span>e</span>
-        <span>m</span>
-        <span>e</span>
-        <span>n</span>
-        <span>t</span>
+
+      <a
+        href="https://api.whatsapp.com/send/?phone=%2B917845721438&text&app_absent=0"
+        target="_blank"
+        id="wa"
+        class="cursor"
+      >
+        <img
+          src="../assets/imagesandvectors/vectors/whatsapp.png"
+          alt="whatsapp"
+          class="img-fluid"
+          style="width: 70px"
+        />
       </a>
-      <div class="overflow-visible class-ico" data-aos="fade-right" data-aos-duration="1000" data-bs-toggle="modal"
-        data-bs-target="#contact">
-        <dotlottie-player title="contact" src="https://lottie.host/a335969b-c315-4035-be6b-d18bed4b5831/l73y30ZFSl.json"
-          background="transparent" speed="1" style="width: 80px" loop autoplay></dotlottie-player>
-      </div>
     </div>
 
-    <a href="https://api.whatsapp.com/send/?phone=%2B917845721438&text&app_absent=0" target="_blank" id="wa"
-      class="cursor">
-      <img src="../assets/imagesandvectors/vectors/whatsapp.png" alt="whatsapp" class="img-fluid" style="width: 70px" />
-    </a>
-  </div>
-
-  <!-- course Modal -->
-  <div class="modal fade" id="contact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
-    aria-labelledby="staticBackdropLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered p-3 p-md-5">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h1 class="modal-title fs-5 linear-gradient-text text-center" id="exampleModalLabel">
-            Contact Form
-          </h1>
-          <button type="button" class="btn-close shadow-none" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body p-3">
-          <form id="contactForm" name="contactForm">
-            <div class="form-floating">
-              <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required />
-              <label for="name">Name <span class="text"> *</span></label>
-            </div>
-            <div class="form-floating">
-              <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email"
-                required />
-              <label for="email">Email <span class="text"> *</span></label>
-            </div>
-            <div class="form-floating">
-              <input type="number" class="form-control" id="phone" name="phone" placeholder="Enter your phone number"
-                oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-                maxlength="10" required />
-              <label for="phone">Phone Number <span class="text"> *</span></label>
-            </div>
-            <div class="form-floating">
-              <textarea class="form-control" id="message" name="message" rows="3" placeholder="Enter your message"
-                style="height: 80px"></textarea>
-              <label for="message">Message <span>(Optional)</span></label>
-            </div>
-            <div id="output" class="text-center"></div>
-            <div class="text-center">
-              <button type="submit" class="btn btn-primary btn-block">
-                Submit
-              </button>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div class="modal fade" id="share" tabindex="-1" aria-labelledby="share" aria-hidden="true">
-    <div class="modal-dialog my-0 mx-auto">
-      <div class="modal-content">
-        <div class="modal-body px-3 py-2">
-          <div>
-            <a href="#" id="whatsapp-share" data-action="share/whatsapp/share" target="_blank"
-              class="share-ico text-decoration-none mx-2 fs-4 text-success">
-              <i class="bi bi-whatsapp"></i>
-            </a>
-            <a href="#" id="instagram-share" data-action="share/instagram/share" target="_blank"
-              class="share-ico text-decoration-none mx-2 fs-4 text-danger">
-              <i class="bi bi-instagram"></i>
-            </a>
-            <a href="#" id="facebook-share" data-action="share/facebook/share" target="_blank"
-              class="share-ico text-decoration-none mx-2 fs-4">
-              <i class="bi bi-facebook"></i>
-            </a>
+    <!-- course Modal -->
+    <div
+      class="modal fade"
+      id="contact"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered p-3 p-md-5">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1
+              class="modal-title fs-5 linear-gradient-text text-center"
+              id="exampleModalLabel"
+            >
+              Contact Form
+            </h1>
+            <button
+              type="button"
+              class="btn-close shadow-none"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body p-3">
+            <form id="contactForm" name="contactForm">
+              <div class="form-floating">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                />
+                <label for="name">Name <span class="text"> *</span></label>
+              </div>
+              <div class="form-floating">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+                <label for="email">Email <span class="text"> *</span></label>
+              </div>
+              <div class="form-floating">
+                <input
+                  type="number"
+                  class="form-control"
+                  id="phone"
+                  name="phone"
+                  placeholder="Enter your phone number"
+                  oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
+                  maxlength="10"
+                  required
+                />
+                <label for="phone"
+                  >Phone Number <span class="text"> *</span></label
+                >
+              </div>
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="message"
+                  rows="3"
+                  placeholder="Enter your message"
+                  style="height: 80px"
+                ></textarea>
+                <label for="message">Message <span>(Optional)</span></label>
+              </div>
+              <div id="output" class="text-center"></div>
+              <div class="text-center">
+                <button type="submit" class="btn btn-primary btn-block">
+                  Submit
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
     </div>
-  </div>
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E4L74X1L7V"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
+    <div
+      class="modal fade"
+      id="share"
+      tabindex="-1"
+      aria-labelledby="share"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog my-0 mx-auto">
+        <div class="modal-content">
+          <div class="modal-body px-3 py-2">
+            <div>
+              <a
+                href="#"
+                id="whatsapp-share"
+                data-action="share/whatsapp/share"
+                target="_blank"
+                class="share-ico text-decoration-none mx-2 fs-4 text-success"
+              >
+                <i class="bi bi-whatsapp"></i>
+              </a>
+              <a
+                href="#"
+                id="instagram-share"
+                data-action="share/instagram/share"
+                target="_blank"
+                class="share-ico text-decoration-none mx-2 fs-4 text-danger"
+              >
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a
+                href="#"
+                id="facebook-share"
+                data-action="share/facebook/share"
+                target="_blank"
+                class="share-ico text-decoration-none mx-2 fs-4"
+              >
+                <i class="bi bi-facebook"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-    gtag("config", "G-E4L74X1L7V");
-  </script>
-  <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script src="../assets/js/finisher-header.es5.min.js" type="text/javascript"></script>
-  <script src="../assets/js/script.js"></script>
-  <script src="../assets/js/footer.js"></script>
-  <script src="../assets/js/contact.js"></script>
-  <script src="../assets/js/newblog.js"></script>
-  <script src="../assets/js/blogShare.js"></script>
-</body>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-E4L74X1L7V"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
+      gtag("config", "G-E4L74X1L7V");
+    </script>
+    <script
+      src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
+      type="module"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="../assets/js/finisher-header.es5.min.js"
+      type="text/javascript"
+    ></script>
+    <script src="../assets/js/script.js"></script>
+    <script src="../assets/js/footer.js"></script>
+    <script src="../assets/js/contact.js"></script>
+    <script src="../assets/js/newblog.js"></script>
+    <script src="../assets/js/blogShare.js"></script>
+  </body>
 </html>
