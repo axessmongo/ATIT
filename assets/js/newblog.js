@@ -1,5 +1,5 @@
 var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-duration="600">
-<a href="./emerging_tech.html"
+<a href="./emerging-technologies-to watch.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Tech Skills</p>
@@ -21,7 +21,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
 </div>
 
 <div class="mb-3 chandrayaan" data-aos="fade-right" data-aos-duration="600">
-<a href="./chandrayaan.html"
+<a href="./lessons-from-the-chandrayaan-3-project.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Others</p>
@@ -81,7 +81,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
 </div>
 
 <div class="mb-3 change_in_career" data-aos="fade-left" data-aos-duration="600">
-<a href="./change_in_career.html"
+<a href="./understanding-the-it-industry"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Tech Skills</p>
@@ -101,7 +101,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
 </div>
 
 <div class="mb-3 common_pitfalls" data-aos="fade-right" data-aos-duration="600">
-<a href="./common_pitfalls.html"
+<a href="./the-ultimate-guide-to-10-power-words-and-phrases.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Interviews</p>
@@ -221,7 +221,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
 </div>
 
 <div class="mb-3 dynamic_indian_job" data-aos="fade-right" data-aos-duration="600">
-<a href="dynamic_indian_job.html"
+<a href="the-booming-it-sector-in-india.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Interviews</p>
@@ -241,7 +241,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
 </div>
 
 <div class="mb-3 dynamics_of_it" data-aos="fade-left" data-aos-duration="600">
-<a href="./dynamics_of_it.html"
+<a href="./introduction-to-the-dynamics-of-the-it-job-market-and-fresh-graduates.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">IT-Jobs</p>

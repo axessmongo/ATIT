@@ -71,7 +71,7 @@
             </a>
         </div>
         <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
-        <a href="./blog/dynamic_indian_job.html" class="">
+        <a href="./blog/the-booming-it-sector-in-india.html" class="">
         <div class="box rounded-5 ">
             <img src="./assets/img/Blog/Blog4.png">
             <div class="box-content">                           
@@ -79,12 +79,12 @@
             </div>
         </div>
         </a>
-        <a href="./blog/dynamic_indian_job.html" class="text-decoration-none blog-title blog-title">
+        <a href="./blog/the-booming-it-sector-in-india.html" class="text-decoration-none blog-title blog-title">
             Dynamic Indian Job Market
         </a>
     </div>
     <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
-        <a href="./blog/dynamics_of_it.html" class="">
+        <a href="./blog/introduction-to-the-dynamics-of-the-it-job-market-and-fresh-graduates.html" class="">
         <div class="box rounded-5 ">
             <img src="./assets/img/Blog/Blog11.png">
             <div class="box-content">                           
@@ -92,7 +92,7 @@
             </div>
         </div>
         </a>
-        <a href="./blog/dynamics_of_it.html" class="text-decoration-none blog-title blog-title">
+        <a href="./blog/introduction-to-the-dynamics-of-the-it-job-market-and-fresh-graduates.html" class="text-decoration-none blog-title blog-title">
         Dynamics Of IT 
         
         </a>
