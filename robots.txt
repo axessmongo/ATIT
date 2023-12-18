@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://atit.org.in/sitemap.xml
