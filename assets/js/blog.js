@@ -8,20 +8,20 @@
             `<div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
             <a href="./blog/employment_opportunity.html" class="">
             <div class="box rounded-5 ">
-                <img src="./assets/img/Blog/Blog5.png">
+                <img src="./assets/img/Blog/Blog5.png" alt="Employment opportunities image">
                 <div class="box-content">                           
                    <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">  IT Jobs</h2>                   
                 </div>
             </div>
             </a>
             <a href="./blog/employment_opportunity.html" class="text-decoration-none blog-title blog-title">
-            Employment opportunities!
+            Employment opportunities
             </a>
         </div>
         <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
             <a href="./blog/job_market.html" class="">
             <div class="box rounded-5 ">
-                <img src="./assets/img/Blog/Blog8.png">
+                <img src="./assets/img/Blog/Blog8.png" alt="The Job Market In 2023 image">
                 <div class="box-content">                           
                    <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">Interviews</h2>                   
                 </div>
@@ -34,7 +34,7 @@
         <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
             <a href="./blog/job_race.html" class="">
             <div class="box rounded-5 ">
-                <img src="./assets/img/Blog/Blog6.png">
+                <img src="./assets/img/Blog/Blog6.png" alt="Get Ahead Of The Job Race image">
                 <div class="box-content">                           
                    <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category"> IT Jobs</h2>                   
                 </div>
@@ -47,7 +47,7 @@
         <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
             <a href="./blog/professional_exam.html" class="">
             <div class="box rounded-5 ">
-                <img src="./assets/img/Blog/blogimg.jpg">
+                <img src="./assets/img/Blog/blogimg.jpg" alt=" Clear Any Professional Exam image">
                 <div class="box-content">                           
                    <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">Others</h2>                   
                 </div>
@@ -60,7 +60,7 @@
         <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
             <a href="./blog/first_itjob.html" class="">
             <div class="box rounded-5 ">
-                <img src="./assets/img/Blog/Blog7.png">
+                <img src="./assets/img/Blog/Blog7.png" alt="Your First IT Job Interview image">
                 <div class="box-content">                           
                    <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">  IT Jobs</h2>                   
                 </div>
@@ -73,7 +73,7 @@
         <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
         <a href="./blog/dynamic_indian_job.html" class="">
         <div class="box rounded-5 ">
-            <img src="./assets/img/Blog/Blog4.png">
+            <img src="./assets/img/Blog/Blog4.png" alt="Dynamic Indian Job Market image">
             <div class="box-content">                           
                <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">Interviews</h2>                   
             </div>
@@ -86,7 +86,7 @@
     <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
         <a href="./blog/dynamics_of_it.html" class="">
         <div class="box rounded-5 ">
-            <img src="./assets/img/Blog/Blog11.png">
+            <img src="./assets/img/Blog/Blog11.png" alt="Dynamics Of IT image">
             <div class="box-content">                           
                <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">IT Jobs</h2>                   
             </div>
@@ -100,7 +100,7 @@
     <div class="col-md-4 pb-5" data-aos="fade-right" data-aos-duration="900">
         <a href="./blog/tech_interviews.html" class="">
         <div class="box rounded-5 ">
-            <img src="./assets/img/Blog/Blog12.png">
+            <img src="./assets/img/Blog/Blog12.png" alt="Clear Technical Interviews image">
             <div class="box-content">                           
                <h2 class="text-decoration-none text-dark mt-3 ms-2 blog-category">Interviews</h2>                   
             </div>

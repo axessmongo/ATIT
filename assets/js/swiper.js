@@ -21,8 +21,6 @@ let swipercode = `
                 <div class="swiper-slide">
                     <div class="testimonial-item">
 
-                        <!-- <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" -->
-
                         <h3>Ananya M</h3>
                         <!-- <h4>Ceo &amp; Founder</h4> -->
                         <p>
@@ -38,8 +36,7 @@ let swipercode = `
                 </div>
                 <div class="swiper-slide">
                     <div class="testimonial-item">
-                        <!-- <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" -->
-
+                       
                         <h3>Priya R</h3>
                         <!-- <h4>Designer</h4> -->
                         <p>
@@ -54,9 +51,7 @@ let swipercode = `
                 </div><!-- End testimonial item -->
                 <div class="swiper-slide">
                     <div class="testimonial-item">
-                        <!-- <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" -->
-
-                        <h3>Rajesh S</h3>
+                     <h3>Rajesh S</h3>
                         <!-- <h4>Store Owner</h4> -->
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
@@ -70,8 +65,7 @@ let swipercode = `
                 </div><!-- End testimonial item -->
                 <div class="swiper-slide">
                     <div class="testimonial-item">
-                        <!-- <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" -->
-
+                      
                         <h3>Deepak K</h3>
                         <!-- <h4>Freelancer</h4> -->
                         <p>
@@ -87,8 +81,6 @@ let swipercode = `
 
                 <div class="swiper-slide">
                     <div class="testimonial-item">
-                        <!-- <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" -->
-
                         <h3>Arjun N</h3>
                         <!-- <h4>Entrepreneur</h4> -->
                         <p>
