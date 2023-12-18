@@ -216,6 +216,7 @@ $(".atit-card-1").hover(function () {
 });
 
 
+
 let getCourseList = sessionStorage.getItem('cousrelist');
 if (getCourseList == 1) {
     $('.course #pills-tab  button.nav-link').removeClass('active')
