@@ -40,8 +40,8 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
 </a>
 </div>
 
-<div class="mb-3 exploring_lucrative" data-aos="fade-left" data-aos-duration="600">
-<a href="exploring_lucrative.html"
+<div class="mb-3 lucrative-it-job-opportunities-in-india.html" data-aos="fade-left" data-aos-duration="600">
+<a href="exploring lucrative-it-job-opportunities-in-india.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">IT-Jobs</p>
@@ -61,7 +61,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
 </div>
 
 <div class="mb-3 resume" data-aos="fade-right" data-aos-duration="600">
-<a href="./resume.html"
+<a href="./how-to-craft-a-stellar-resume.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Interviews</p>
@@ -81,7 +81,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
 </div>
 
 <div class="mb-3 change_in_career" data-aos="fade-left" data-aos-duration="600">
-<a href="./understanding-the-it-industry"
+<a href="./understanding-the-it-industry.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Tech Skills</p>
@@ -121,7 +121,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
 </div>
 
 <div class="mb-3 employment_opportunity" data-aos="fade-left" data-aos-duration="600">
-<a href="./employment_opportunity.html"
+<a href="./here-the-framework-to-launch-your-it-career-a-complete-guide.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">IT-Jobs</p>
@@ -141,7 +141,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
 </div>
 
 <div class="mb-3 job_market" data-aos="fade-right" data-aos-duration="600">
-<a href="./job_market.html"
+<a href="./what-is-this-post-about.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Interviews</p>
@@ -161,7 +161,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
 </div>
 
 <div class="mb-3 job_race" data-aos="fade-left" data-aos-duration="600">
-<a href="./job_race.html"
+<a href="./want-to-get-ahead-of-the-job-race.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">IT-Jobs</p>
@@ -181,7 +181,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
 </div>
 
 <div class="mb-3 professional_exam" data-aos="fade-right" data-aos-duration="600">
-<a href="./professional_exam.html"
+<a href="./how-to-clear-any-professional-exam-a-proven-strategy-for-success.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Others</p>
@@ -201,7 +201,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
 </div>
 
 <div class="mb-3 first_itjob" data-aos="fade-left" data-aos-duration="600">
-<a href="first_itjob.html"
+<a href="how-to-ace-your-first-it-job-interview.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">IT-Jobs</p>
@@ -261,7 +261,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
 </div>
 
 <div class="mb-3 tech_interviews" data-aos="fade-right" data-aos-duration="600">
-<a href="./tech_interviews.html"
+<a href="./mastering-technical-interviews.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Interviews</p>
