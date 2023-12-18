@@ -150,6 +150,21 @@ $('.course .tab-pane .card').attr({
     'data-aos-duration': '600'
 });
 
+$(document).ready(function () {
+    $('.nav-link').on('click', function () {
+        // Remove the 'show' class from all tab contents
+        $('.tab-pane').removeClass('show');
+
+        // Add the 'show' class to the selected tab content
+        var targetId = $(this).data('bs-target').substring(1);
+        $(targetId).addClass('data-aos');
+    });
+});
+$('.nav-pills .nav-link').click(function () {
+    AOS.refresh();
+});
+
+
 
 $(".atit-card-1").hover(function () {
     // Mouseenter event
