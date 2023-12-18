@@ -133,10 +133,10 @@ $(document).ready(function () {
   // $("footer .courses-links a").attr("href", "one");
   if ($(".individualBlogs").length > 0) {
     $(".popup").attr("href", "../pay-after-placement.html");
-    $(".copyright a").attr("href", "../privacy_policy.html");
+    $(".copyright a").attr("href", "../privacy-policy.html");
   } else if ($(".coursesList").length > 0) {
     $(".popup").attr("href", "../../pay-after-placement.html");
-    $(".copyright a").attr("href", "../../privacy_policy.html");
+    $(".copyright a").attr("href", "../../privacy-policy.html");
   }
 });
 
