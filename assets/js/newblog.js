@@ -35,7 +35,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
         </p>
     </div>
     <div class="col-4">
-        <img src="../assets/img/Blog/Blog2.png" alt="Emerging technological">
+        <img src="../assets/img/Blog/Blog2.png" alt=" Job-Hunting Chandrayaan 3">
     </div>
 </a>
 </div>
@@ -55,7 +55,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
         </p>
     </div>
     <div class="col-4">
-        <img src="../assets/img/Blog/Blog3.png" alt="Emerging technological">
+        <img src="../assets/img/Blog/Blog3.png" alt=" Exploring Lucrative IT Job image">
     </div>
 </a>
 </div>
@@ -75,7 +75,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
         </p>
     </div>
     <div class="col-4">
-        <img src="../assets/img/Blog/Blog10.png" alt="Emerging technological">
+        <img src="../assets/img/Blog/Blog10.png" alt=" Polishing Up Your Resume image">
     </div>
 </a>
 </div>
@@ -95,7 +95,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
         </p>
     </div>
     <div class="col-4">
-        <img src="../assets/img/Blog/Blog5.png" alt="Emerging technological">
+        <img src="../assets/img/Blog/Blog5.png" alt=" Change In Career image">
     </div>
 </a>
 </div>
@@ -115,7 +115,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
         </p>
     </div>
     <div class="col-4">
-        <img src="../assets/img/Blog/Blog10.png" alt="Emerging technological">
+        <img src="../assets/img/Blog/Blog10.png" alt="Common Pitfalls In Interviews image">
     </div>
 </a>
 </div>
@@ -135,7 +135,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
         </p>
     </div>
     <div class="col-4">
-        <img src="../assets/img/Blog/Blog5.png" alt="Emerging technological">
+        <img src="../assets/img/Blog/Blog5.png" alt=" Employment Opportunities image">
     </div>
 </a>
 </div>
@@ -155,7 +155,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
         </p>
     </div>
     <div class="col-4">
-        <img src="../assets/img/Blog/Blog8.png" alt="Emerging technological">
+        <img src="../assets/img/Blog/Blog8.png" alt="The Job Market In 2023 image">
     </div>
 </a>
 </div>
@@ -175,7 +175,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
         </p>
     </div>
     <div class="col-4">
-        <img src="../assets/img/Blog/Blog6.png" alt="Emerging technological">
+        <img src="../assets/img/Blog/Blog6.png" alt="Get Ahead Of The Job Race image">
     </div>
 </a>
 </div>
@@ -195,7 +195,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
         </p>
     </div>
     <div class="col-4">
-        <img src="../assets/img/Blog/blogimg.jpg" alt="Emerging technological">
+        <img src="../assets/img/Blog/blogimg.jpg" alt="Clear Any Professional Exam image">
     </div>
 </a>
 </div>
@@ -215,7 +215,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
         </p>
     </div>
     <div class="col-4">
-        <img src="../assets/img/Blog/Blog7.png" alt="Emerging technological">
+        <img src="../assets/img/Blog/Blog7.png" alt="Your First IT Job Interview image">
     </div>
 </a>
 </div>
@@ -235,7 +235,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
         </p>
     </div>
     <div class="col-4">
-        <img src="../assets/img/Blog/Blog4.png" alt="Emerging technological">
+        <img src="../assets/img/Blog/Blog4.png" alt=" Dynamic Indian Job Market image">
     </div>
 </a>
 </div>
@@ -255,7 +255,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
         </p>
     </div>
     <div class="col-4">
-        <img src="../assets/img/Blog/Blog11.png" alt="Emerging technological">
+        <img src="../assets/img/Blog/Blog11.png" alt="Dynamics Of The IT Job Market">
     </div>
 </a>
 </div>
@@ -275,7 +275,7 @@ var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-dur
         </p>
     </div>
     <div class="col-4">
-        <img src="../assets/img/Blog/Blog12.png" alt="Emerging technological">
+        <img src="../assets/img/Blog/Blog12.png" alt="Clear Technical Interview image">
     </div>
 </a>
 </div>

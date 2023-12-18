@@ -1,7 +1,6 @@
 // HTML code to insert after the existing div
 var htmlCode = `
 <div id="rocket-container" class="cursor" data-aos="zoom-in">
-<!-- <img src="./assets/imagesandvectors/vectors/newww.gif" alt="Rocket" id="rocket"> -->
 <dotlottie-player src="https://lottie.host/a3930b1d-eaf8-4fc4-a6b4-7ba7c5654523/tqWYmbEE3y.json"
     background="transparent" speed="1" id="rocket" loop autoplay></dotlottie-player>
 
