@@ -1,5 +1,5 @@
 var newblog = `<div class="mb-3 emerging_tech" data-aos="fade-left" data-aos-duration="600">
-<a href="./emerging-technologies-to watch.html"
+<a href="./emerging-technologies-to-watch.html"
     class="post row align-items-center justify-content-center text-decoration-none">
     <div class="col-8 col-lg-4">
         <p class="light-text">Tech Skills</p>
