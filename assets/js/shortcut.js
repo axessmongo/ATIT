@@ -1,9 +1,7 @@
 // HTML code to insert after the existing div
 var htmlCode = `
 <div id="rocket-container" class="cursor" data-aos="zoom-in">
-<dotlottie-player src="https://lottie.host/a3930b1d-eaf8-4fc4-a6b4-7ba7c5654523/tqWYmbEE3y.json"
-    background="transparent" speed="1" id="rocket" loop autoplay></dotlottie-player>
-
+<img src="../../assets/img/rocket.gif" height="120px" alt="">
 </div>
 
 <div
@@ -139,5 +137,6 @@ $(document).ready(function () {
     $(".copyright a").attr("href", "../../privacy-policy.html");
   }
 });
+
 
 AOS.init();
