@@ -127,22 +127,22 @@ $(document).ready(function () {
     setTimeout($('.cloud').removeClass('animated-element'), 10000)
 });
 
-$(document).ready(function () {
+    $(document).ready(function () {
 
-    setTimeout(function () {
-        $('.popup').removeClass('pop-ani');
-    }, 2000);
+        setTimeout(function () {
+            $('.popup').removeClass('pop-ani');
+        }, 2000);
 
 
-    setInterval(function () {
-        $('.popup').addClass('pop-ani');
-    }, 5000);
+        setInterval(function () {
+            $('.popup').addClass('pop-ani');
+        }, 5000);
 
-    setInterval(function () {
-        $('.popup').removeClass('pop-ani');
-    }, 10000);
+        setInterval(function () {
+            $('.popup').removeClass('pop-ani');
+        }, 10000);
 
-});
+    });
 
 
 $('.course .tab-pane .card').attr({
